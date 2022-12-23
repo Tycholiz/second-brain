@@ -1,13 +1,8 @@
 name: Dendron
 
-# on:
-#   schedule:
-#   - cron: "0 0 * * *" # every 24hr at midnight
-
 on:
-  push:
-    branches:
-      - auto-deploy
+  schedule:
+  - cron: "0 0 * * *" # every 24hr at midnight
 
 jobs:
   build-nextjs-site:
