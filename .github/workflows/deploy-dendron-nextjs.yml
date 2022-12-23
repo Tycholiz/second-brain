@@ -24,7 +24,7 @@ jobs:
       uses: actions/checkout@v2
       with:
         path: 'publishable'
-        ref: master
+        ref: main
         fetch-depth: 0
 
     - name: Delete publishable cached files if present
