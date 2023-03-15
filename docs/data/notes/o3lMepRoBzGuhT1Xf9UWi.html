@@ -1,0 +1,12 @@
+<h1 id="buffer">Buffer<a aria-hidden="true" class="anchor-heading icon-link" href="#buffer"></a></h1>
+<h3 id="preferences--device--request-block-size">Preferences > Device > Request Block Size<a aria-hidden="true" class="anchor-heading icon-link" href="#preferences--device--request-block-size"></a></h3>
+<p>This is the interface buffer size
+This will set the latency for any live inputs and outputs, whether audio or MIDI
+This also directly affects CPU performance.</p>
+<ul>
+<li>512 is the default, but if we drop it to 64, the CPU usage will increase, while latency will be almost instantaneous.
+<ul>
+<li>therefore, we might want to drop the size of the buffer when recording, and return it to default when we aren't</li>
+</ul>
+</li>
+</ul>

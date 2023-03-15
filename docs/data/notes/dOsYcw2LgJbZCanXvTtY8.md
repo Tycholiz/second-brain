@@ -1,0 +1,54 @@
+
+- Use of white space
+	- Keep the page simple and only include info that will serve to convert those visitors
+- To determine which landing page the consumer is directed to, it's vital to think first
+	- which platform did they 'click through' on?
+		- Facebook, instagram, pinterest marketing will be different, since people go to those platforms for specific purposes. Therefore the purpose of the landing page must be relevant to whatever ad they clicked on
+	- what is the goal with this landing page?
+		- generate awareness? 
+		- to get them thinking about new experiences while they are in travel mode?
+- A hook that piques their interest. needs to be relevant to why they clicked to the post in the first place
+	- Of course, this will differ depending on if we are marketing towards Tattlers or Travellers.
+	- *examples*
+		- *where will you let the world take you?*
+		- *ready to leave the tour bus behind, and really start to explore the world?*
+		- *the evolution of experiential travelling*
+- Create buzzwords that pique interest?
+	- *experiential travelling
+- have a clear objective
+	- *filling out a form*
+	- *clicking on a "sign up" button*
+- CTAs should be colours that contrast with background
+- Think of the page as a funnel. 
+	- The widest part of the funnel represents the wide variability of different users
+		- different purposes for being there
+		- different levels of wariness, or general willingness to try new things
+	- the narrow part represents the common goal that we ultimately want to get as many visitors as possible to achieve.
+- Convince, rather than sell
+	- Don't come off as trying to sell your product. Rather, come off as trying to make a persuasive argument for why your offering is the best way forward. You don't need to even mention your product early on. Just get them convinced that it's time to change whatever method they are currently employing in their lives.
+	- Once they are convinced, it will be natural for the visitor to have your brand in mind (they clicked on your ad, after all). At most, do some light mentioning of the brand, but be extremely careful not to come off as sales-y
+		- People hate to be sold on things. People love to find solutions to their problems.
+- Make the webpage as scannable as possible, with use of bullets and headings.
+- Don't be afraid to include a good level of convincing material on **specially designed landing pages** (SDLP) (ie. those designed to be lead to from digital marketing means)
+	- People are accustomed to knowing that "scroll down for more info" is a thing. If they want more info because their interest is piqued but they aren't yet convinced, they can do that. However, it's not a necessity, and the experience is not negatively impacted otherwise.
+- For **specially designed landing pages** present the picture of the current state of the world, then proceed to show how the world is *with* the product you are offering in it.
+	- Make sure that image is realistic otherwise people won't relate to it
+		- ex. don't portray the world as one where you can only carry around 30 songs on an mp3 player. That's not the state of the world anymore, and no one will resonate with it.
+	- The best is if the current state of the world is not good, but people don't realize that. Then, if you are able to show that the state of the world is not good and have people realize that, they will most be open to suggestion, since a large void was just created and that void needs to be filled.
+- make use of animations, both static and within the video
+	- Even better if you can make "static" images that aren't so static (using slight csv animations)
+- In SDLPs, be sure that the point is emphasized that whatever you are offering is NOT what the visitor dreads or is afraid of
+	- ex. Rosetta stone reiterates the fact that with the platform, you will not learn with boring drills
+	- This creates separation between what the visitor's fears are, and what your brand actually offers as a solution.
+	- This being said, it is vital that the business understands exactly how the market feels about "this sort of thing". That way, it can be addressed.
+		- Do they have an unsafe impression of it?
+-If using a video explainer, make use of bullets to cover the high level overview of whatever it is the brand does, then use the video to dive a bit deeper into the weeds
+- Create such good content that it's difficult for people to say no
+	- This goes for general content that adds value, but does not try too hard to sell the brand
+- Start with why
+	- Why related questions/answers should be at the top
+	- Maybe make headings, and each heading would be a 1..2..3 component
+		- In the form of a question 
+		- Be your own boss, share your {passion,world}, do what you were meant to do
+
+- [types of landing pages](https://blog.hubspot.com/marketing/landing-page-types)

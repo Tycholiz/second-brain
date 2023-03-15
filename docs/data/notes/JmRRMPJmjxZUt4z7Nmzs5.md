@@ -1,0 +1,24 @@
+
+## plus, minus, and equal
+to become great, you need to have someone better that you can learn from, someone lesser who you can teach, and someone equal that you can challenge yourself against.
+
+* * *
+
+It is worthwhile to explore different values. If we are real about it, what we stand to gain are new ways to ultimately define who we are. If we don't end up adopting it, then at the very least we can understand a new way of thinking and be able to relate on a deeper level than an outside observer
+
+Allowing someone to try and sell you on something is allowing an opportunity for your mindset and perspective to grow and change. It is allowing you to see different viewpoints that allows you to form and perfect your own eclectic view on the world
+
+Instead of seeing failures as bad things why not see them as opportunities for learning. I'm struggling with a concept sagas in react. Something so different has encountered my mind meaning there's a big opportunity here to see things in a completely different way
+
+The more you value achievement, the more you come to dread failure. Instead of aiming for unique accomplishments, the intense desire to succeed leads us to strive for guaranteed success.
+
+To be exactly one's opposite is still to let them define you
+- When the person you dislike starts extending to things that the person likes, you are defining yourself based on them. If someone you hate likes butter pecan ice cream, and you start hating it as a result, you are defining yourself based on them
+
+# Strengths Perspective 
+look at your weaknesses from the strength perspective to realize how those strengths can be leveraged to handle the weaknesses
+- ex. I have a tendency to overthink things. This is good because it means I am thoughtful. It is bad because among other things, it prevents me from living in the moment. If I focus on the good side, I can look for ways to combat the bad side. Because I am thoughtful, I can consciously realize when I am too much in my own head and make an effort to stop.
+- when analyzing your weaknesses, try to notice if one of your strengths will help combat that weakness
+
+# Quotes
+it is not “Who do I want to be in life?” but “What is it that I want to accomplish in life?”

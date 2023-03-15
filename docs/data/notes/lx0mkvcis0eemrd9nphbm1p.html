@@ -1,0 +1,151 @@
+<h1 id="volume">Volume<a aria-hidden="true" class="anchor-heading icon-link" href="#volume"></a></h1>
+<p>Remember that apparent volume is what matters, not dB. The shape of the soundwave also affects how loudly we perceive something</p>
+<ul>
+<li>even at the same dB level, a chainsaw will sound much louder than a flute because of the shape of the soundwave.</li>
+</ul>
+<p>Once an instrument playing a certain pattern is heard, it is safe to blend back into the mix, where even if it is barely audible, the listener will be able to clearly discern what is being played, due to the fact they've already heard it.</p>
+<ul>
+<li>ex. a common pattern for a song has a guitar playing solo, only to be joined by other instruments progressively. Once these other instruments get added, it's fine to lower the volume on the guitar, since its distinctive pattern has already been heard and the listener can fill in the blanks on their own.</li>
+</ul>
+<p>It is not uncommon for the engineer to vary the volume faders throughout the song as dynamics change (ex. instruments are added, entering a new section of the song etc.)</p>
+<ul>
+<li><a href="/notes/enqduojp3hdl58v8o73g2l8">compressors</a> can only do so much before they start sounding unnatural.</li>
+</ul>
+<p>The volume fader is the volume of the track after the FX pipeline has been applied to it. </p>
+<ul>
+<li>It is the volume level that will be piped into the it's <code>send</code> (ie. the next place in the pipeline)</li>
+</ul>
+<h3 id="relative-volume">Relative volume<a aria-hidden="true" class="anchor-heading icon-link" href="#relative-volume"></a></h3>
+<p>When doing your initial volume setting of each track, it's easier to scope small and gently expand outward</p>
+<ul>
+<li>ex. volume-match your cellos first, then your string section, then your brass section, then your string section AND brass section, and so on.</li>
+</ul>
+<h2 id="framework-levels-of-volume">Framework: Levels of volume<a aria-hidden="true" class="anchor-heading icon-link" href="#framework-levels-of-volume"></a></h2>
+<p>A useful framework for thinking about relative (apparent) volumes is to place each instrument in one of 6 levels</p>
+<ul>
+<li>positioning of snare is quite varied, and depending on the genre, can appear from level 4 to level 2
+<ul>
+<li><a href="https://youtu.be/TEjOdqZFvhY?t=6540">ref</a></li>
+</ul>
+</li>
+<li>vocals can also appear at various levels depending on genre and how strong the vocalist is
+<ul>
+<li><a href="https://youtu.be/TEjOdqZFvhY?t=6385">ref</a></li>
+</ul>
+</li>
+<li>kick drum may appear at various levels as well.
+<ul>
+<li>ex. Kick drum in Jimi Hendrix' music is at around level 4 and can barely be heard</li>
+<li>ex. Heavy metal commonly places kick drum around level 2</li>
+<li><a href="https://youtu.be/TEjOdqZFvhY?t=6668">ref</a></li>
+</ul>
+</li>
+<li>bass guitar was traditionally quite low at level 3/4, but has progressively gotten louder and is commonly found at level 2/3
+<ul>
+<li>commonly, the fewer instruments in the mix, the louder the bass, since it does a good job of filling out the space between the speakers</li>
+</ul>
+</li>
+<li>consider that a song can have varying ranges of volume levels, that is often influenced by genre
+<ul>
+<li>ex. some music has a range than spans only volume levels 2-4, while others might cover all
+<ul>
+<li>Pink Floyd's music typically has quite a wide range of volume levels</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="level-1">Level 1<a aria-hidden="true" class="anchor-heading icon-link" href="#level-1"></a></h3>
+<p>An unusually loud volume. Placing instruments at this level is the exception rather than the rule. If not done carefully it can sound like an error</p>
+<ul>
+<li>ex. the alarm clocks at the start of Time by Pink Floyd</li>
+</ul>
+<h3 id="level-2">Level 2<a aria-hidden="true" class="anchor-heading icon-link" href="#level-2"></a></h3>
+<p>Lead instruments and vocals (when vocals/lyrics are meant to be the main focal point of the song)</p>
+<ul>
+<li>ex. Bob Dylan's music normally has vocals at this level</li>
+<li>ex. "kick" drum in hip hop, kick drum and toms in heavy metal</li>
+</ul>
+<h3 id="level-3">Level 3<a aria-hidden="true" class="anchor-heading icon-link" href="#level-3"></a></h3>
+<p>Primary rhythm parts</p>
+<ul>
+<li>ex. guitar, keyboard, vocals (when not meant to be the dominant focal point)</li>
+<li>ex. kick drums (heavy metal), snare (dance music), toms, cymbals, hi-hat (occasionally)</li>
+</ul>
+<h3 id="level-4">Level 4<a aria-hidden="true" class="anchor-heading icon-link" href="#level-4"></a></h3>
+<p>Rhythm beds and chordal pads</p>
+<ul>
+<li>ex. background piano, background strings, keys, guitar</li>
+<li>ex. drums (jazz)</li>
+<li>ex. hi-hat</li>
+</ul>
+<p>When reverb is noticeable as a sound on its own, it is usually at this level</p>
+<h3 id="level-5">Level 5<a aria-hidden="true" class="anchor-heading icon-link" href="#level-5"></a></h3>
+<ul>
+<li>ex. Kick drum (jazz, big bang music)</li>
+<li>ex. Background vocals</li>
+</ul>
+<p>lots of FX and reverb live at this level so you can only hear them if listening closely</p>
+<h3 id="level-6">Level 6<a aria-hidden="true" class="anchor-heading icon-link" href="#level-6"></a></h3>
+<p>Soft and hard to detect sounds</p>
+<ul>
+<li>ex. whisper sounds found in Pink Floyd music</li>
+</ul>
+<hr>
+<h3 id="gain-staging">Gain Staging<a aria-hidden="true" class="anchor-heading icon-link" href="#gain-staging"></a></h3>
+<p>The source signal of an audio track goes through a pipeline before it ultimately arrives at the master bus.</p>
+<ul>
+<li>ex. this pipeline might be:
+<ol>
+<li>the guitar signal is WAV audio track</li>
+<li>the track is in an <code>Acoustic Guitar</code> bus (ie. folder in Reaper)</li>
+<li>the <code>Acoustic Guitar Bus</code> gets routed into the <code>Acoustic Verb</code> send, which gets routed to the <code>Guitars Bus</code></li>
+<li>and so on</li>
+</ol>
+</li>
+</ul>
+<p>Some steps of the pipeline will naturally involve some level of volume increase</p>
+<ul>
+<li>ex. compression, reverb and EQ are all stages that add volume to the mix</li>
+</ul>
+<p>Because one of the first steps of mixing is to set the fader levels, we don't want our compressor/EQ adding perceptible volume to the track. Therefore, when we are happy with the parameters of our FX, we need to A/B test it by bypassing it on and off. Adjust the volume level of the <code>B</code> to match the <code>A</code>.</p>
+<ul>
+<li>ex. Imagine we are A/B testing our compressor on the guitar. We toggle the FX on, and adjust up/down the post-FX gain (?) so that it matches the perceived volume level when the FX is off</li>
+</ul>
+<hr>
+<h2 id="measures-of-volume">Measures of Volume<a aria-hidden="true" class="anchor-heading icon-link" href="#measures-of-volume"></a></h2>
+<p>A decibel (dB) is just a ratio, there has to be a reference level for it to become a unit (of sorts). </p>
+<h3 id="db-spl-sound-pressure-level">dB SPL (Sound Pressure Level)<a aria-hidden="true" class="anchor-heading icon-link" href="#db-spl-sound-pressure-level"></a></h3>
+<p>When the average person talks about "decibels" they are usually (unknowingly) talking about dB SPL which has some arbitrary definition of the lower limit of human hearing as a reference (according to wikipedia it's about as loud as a mosquito flying 3m away)</p>
+<ul>
+<li>ex. you can't exactly hear a gun shot and say 'that was 80dBs', because it relates to how far you are from the source and what reference you are using. If you were to move 50% closer, that 80 dB (SPL) would become 86 dB SPL, because now your perspective is different</li>
+</ul>
+<h3 id="db-fs-full-scale">db FS (Full Scale)<a aria-hidden="true" class="anchor-heading icon-link" href="#db-fs-full-scale"></a></h3>
+<p>When talking about audio in the digital realm, dBFS is used, but instead of the reference being the quietest possible limit, it's the loudest (imposed as a standard) and thus negative values are used to count back from the top. Any signal that passes above 0dB FS gets chopped off, which is known as digital clipping.</p>
+<h3 id="rms-root-mean-square">RMS (Root Mean Square)<a aria-hidden="true" class="anchor-heading icon-link" href="#rms-root-mean-square"></a></h3>
+<p>RMS represents the average (also called “integrated”) loudness of a signal. </p>
+<ul>
+<li>It will typically take a measurement every 300ms, which means whatever peaks occur within that time frame get averaged out for the RMS reading. So RMS isn’t as precise as peak metering, but it actually gives us a better understanding of overall loudness based on the average strength of the signal.</li>
+</ul>
+<p>RMS is useful for whenever you want a reading closer to a person’s actual perception of loudness.</p>
+<p>RMS is usually the unit used for the master track.</p>
+<h3 id="loudness-unit-full-scale-lufs">Loudness Unit Full Scale (LUFS)<a aria-hidden="true" class="anchor-heading icon-link" href="#loudness-unit-full-scale-lufs"></a></h3>
+<p>LUFS is a measurement of perceived loudness obtained by measuring the average level over time.</p>
+<p>Two pieces of music that register identical LUFS readings should sound like they’re at the same level, regardless of whatever the peak or RMS readings say</p>
+<ul>
+<li>therefore, LUFS offers a benefit to the mastering process when we want all tracks to have the same volume level.</li>
+</ul>
+<p>LUFS-M - Momentary Max
+LUFS-S - Short-term Max
+LUFS-I - Integrated</p>
+<h3 id="loudness-range-lra">Loudness Range (LRA)<a aria-hidden="true" class="anchor-heading icon-link" href="#loudness-range-lra"></a></h3>
+<p>The lower the number, the less dynamics. </p>
+<ul>
+<li>since classical music tends to have many loud parts and quiet parts, you might find LRA of 9+, whereas rock music, which is typically more stable is usually around 5-6.</li>
+<li>Note that this is not about dynamic range, but rather, musical dynamics.</li>
+</ul>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/notes/v89y5ry5pbgeazv7v5jr4me">Mixing</a></li>
+</ul>

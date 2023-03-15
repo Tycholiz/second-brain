@@ -1,0 +1,4 @@
+
+- When you are judging something, be careful on anything that has perspectives attached to it. You are likely to lock in to the first perspective that it's natural to you. In other words, you are not likely to sympathize with the least familiar perspective, and not treat it fairly
+
+don't judge a man based on his actions, since he can plan them. Instead, judge a man based on his reactions. The truth reveals itself when a man is jostled. What spills out of him? Is it anger? Or is it something that reflects self control and confidence?

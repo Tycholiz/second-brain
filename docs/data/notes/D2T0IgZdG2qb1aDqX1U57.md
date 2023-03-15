@@ -1,0 +1,18 @@
+
+### Why humans have evolved faster than evolution would naturally permit
+Humanity’s ability to change so rapidly is rooted in its ability to tell stories, whereas every other species is limited by its DNA. 
+- ex. consider that someone living 100 years in Germany from 1900-2000 would have lived through 5 very different social-political systems; all with the same DNA. Contrast that with species of apes, some of which have it baked into their DNA that they have an alpha male who will lead them. They will never develop democracy, because they lack ability to tell fictions about how things ought to be. A Human’s unique characteristic here is that they can tell stories about how things should be, and can rally other people behind this story. In essence, all of this takes place in the collective minds of many different people. A common myth allows people to unite and initiate change which drives hyper speed “evolution”. 
+- ex. consider the case of corporations. They don’t really exist, yet everyone believes in them and makes decisions of great consequence based on that firm belief in their existence. It’s a shared story that people of a [[culture|culture]] believe in. 
+- ex. [[money|finance.money]], federal institutions, [[religion|religion]]
+
+### Reasons for dismissing the achievement of a highly advanced culture in a short period of time
+- linear comparison - when considering what the world will look like in 30 years, it is common to look back to what the world looked like 30 years ago and compare the differences.
+- progress happens in "S curves" - there are periods of high technological advancement and those of relatively low. It is a bias to look at only the past 10 years and make an assessment
+- deductive reasoning - we lean back on what we think we know. If I tell you that you may live to be 150, or 250, or not die at all, your instinct will be, “That’s stupid—if there’s one thing it's that everybody dies.”
+
+judgments are embedded in the way we view objects. I do not see a tree, I see a pleasant or an ugly tree.
+- likewise, it is not possible to hold a situation in one's head without some element of bias
+
+* * *
+awareness of a problem does not mean much, particularly when you have special interests and self-serving institutions in play
+- ex. the idea that medicine should be adogmatic and skeptical by nature has been around for many centuries. however, it was only relatively recently that this way of thinking has been adopted. this goes to show that as long as certain powers are in play, good ideas may remain in relative obscurity for a long time.

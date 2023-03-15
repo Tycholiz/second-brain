@@ -1,0 +1,111 @@
+<h1 id="moving-average">Moving average<a aria-hidden="true" class="anchor-heading icon-link" href="#moving-average"></a></h1>
+<p><em>"Moving averages don’t inform about trend; only about volatility"</em></p>
+<ul>
+<li>Volatility is lower when the stock is above a MA and vice versa </li>
+<li>This is more of a fundamental view to analysis, and technical adherents would probably disagree with the preceding sentiment.</li>
+</ul>
+<p>The MA answers the question, "what if we took the high price of a stock each day over a period of time, and got the average of all of those highs?"</p>
+<ul>
+<li>
+<p>so to get a <code>5Year</code> MA, we take the average of the 5-day highs surrounding the date we are applying it to.</p>
+<ul>
+<li>ex. to get MA of <code>Year3</code>, we would take the average of highs from <code>Year1</code> to <code>Year5</code>. Carrying on, to get MA of <code>Year4</code> we calculate the averages from <code>Year2</code> to <code>Year6</code>. This is how we derive the trend line.</li>
+</ul>
+</li>
+<li>
+<p>Typical periods: 10, 20, 50, 100 and 200, but these really are arbitrary.</p>
+</li>
+<li>
+<p>Moving averages filter out the “noise” from random short-term price fluctuations.</p>
+</li>
+<li>
+<p>From a technical perspective, the MA is used to:</p>
+<ol>
+<li>identify trends
+<ul>
+<li>if price > MA, upward trend</li>
+<li>if price &#x3C; MA, downward trend</li>
+</ul>
+</li>
+<li>identify support (floor) and resistance (ceiling) levels
+<ul>
+<li>More technical traders set stop losses at Moving Average-current price differentials (ie. they find the stop-loss point by subtracting the MA from the current price). When the current price crosses the MA, it indicates the occurrence of a sell-off or buy-in</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+<p>MAs with shorter time frames will react more sharply to price fluctuations</p>
+<ul>
+<li>Therefore, the lower the MA period, the closer the MA will track the actual stock price.</li>
+</ul>
+</li>
+<li>
+<p>As a rule of thumb, the longer your horizon is, the longer the period of MA you will use.</p>
+<ul>
+<li>This is because when you have a long-term view on a stock, you are more accepting of medium-term (~3-6 months) downturn periods.
+<ul>
+<li>If you were to choose the wrong period, you would notice that you would be inclined to sell on premature hints of a downturn. In other words, you wouldn't be as willing to "weather the storm"
+<ul>
+<li>This means that generally, volatility reduces the relevance of the MA. You pick a longer period to offset the amount that you "care" about volatility (remember: volatility only can exist in the context of a time-period, since a short-term trader sees a 5% daily swing as much more volatile a movement than an investor would view it). </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Longer MAs by nature have longer lag times, which impacts when we will consider something to be uptrend of downtrend. </p>
+<ul>
+<li>This makes sense, because "trend" only makes sense in the context of a time period. A long-term investor is more tolerant of midterm "downtrends", but to him, they don't matter because he is looking overall, and asking "what is the stock generally doing"? </li>
+</ul>
+</li>
+</ul>
+<h3 id="crossover">Crossover<a aria-hidden="true" class="anchor-heading icon-link" href="#crossover"></a></h3>
+<ul>
+<li>If you plot a short MA and a long MA together, you may be able to forecast an upcoming downward trend for the stock
+<pre><code>- Again, the MA periods you choose depend on your investment horizon. If you are looking at long-term, then you should use longer period MAs. Ultimately, all investors should want to "sell before a downtrend and buy before an uptrend". Which trends matter is the question that you have to answer. Is this stock a long-term play? very-long-term? medium-long-term? 
+</code></pre>
+<img src="/:/0323e32f98e949a6a68f67b6f4ecabab" alt="f09b5d795314bc9bf3e481a4fabfb05b.png"></li>
+</ul>
+<h2 id="exponential-moving-average-ema">Exponential Moving Average (EMA)<a aria-hidden="true" class="anchor-heading icon-link" href="#exponential-moving-average-ema"></a></h2>
+<ul>
+<li>more for intra-day traders</li>
+<li>gives more weight to more recent prices</li>
+<li>Therefore, it reacts more sharply to price changes than a SMA</li>
+</ul>
+<h3 id="moving-average-convergence-divergence-macd">Moving Average Convergence-Divergence (MACD)<a aria-hidden="true" class="anchor-heading icon-link" href="#moving-average-convergence-divergence-macd"></a></h3>
+<ul>
+<li>shows relationship between 2 different moving averages
+<ul>
+<li>12-period EMA minus 26-period EMA</li>
+</ul>
+</li>
+<li>a 9-day EMA of the MACD (signal line) is plotted on graph
+<ul>
+<li><strong>Crossover</strong> - if MACD crosses above the signal line, it is a buying signal. If it falls below, it is selling signal.
+<ul>
+<li>The speed of a crossover is a signal of <em>how</em> overbought/underbought a security is</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>MACD helps investors understand whether the bullish or bearish movement in the price is strengthening or weakening.</li>
+<li>Since EMA is used, more importance placed on recent price data</li>
+<li>MACD has a positive value when 12-period MA is above 26-period MA.
+<ul>
+<li>spec: meaning the short term trend is surpassing the long-term trend</li>
+</ul>
+</li>
+<li>MACD has a negative value when 12-period MA is below 26-period MA
+<ul>
+<li>spec: indicating the end of a long term t</li>
+</ul>
+</li>
+<li>when price of stock moves away from MACD (divergence), it indicates an end to the current trend</li>
+<li>If MACD is dramatically higher than longer trend, it indicates the security is overbought</li>
+</ul>
+<hr>
+<h3 id="moving-average-timing-model">Moving Average Timing Model<a aria-hidden="true" class="anchor-heading icon-link" href="#moving-average-timing-model"></a></h3>
+<p>at the end of the month, see if index is still above the 200-day moving average. If yes, hold onto the stock. If it's below, sell it.
+at the end of each month, if the stock is below the 200-day moving average, sell it. Otherwise, hold onto it.</p>

@@ -1,0 +1,51 @@
+<h1 id="cook">Cook<a aria-hidden="true" class="anchor-heading icon-link" href="#cook"></a></h1>
+<h3 id="install-extensions">Install extensions<a aria-hidden="true" class="anchor-heading icon-link" href="#install-extensions"></a></h3>
+<p>Simply drag the <code>.dylib</code> file into <code>~/Library/Application Support/REAPER/UserPlugins</code></p>
+<h2 id="recording">Recording<a aria-hidden="true" class="anchor-heading icon-link" href="#recording"></a></h2>
+<h3 id="loop-recording-with-pre-roll-each-time">Loop recording with pre-roll each time<a aria-hidden="true" class="anchor-heading icon-link" href="#loop-recording-with-pre-roll-each-time"></a></h3>
+<p>This will allow us to loop record while being able to hear the part that comes before the actual section to be recorded <em>on each iteration of the loop</em></p>
+<ul>
+<li><a href="https://reaperblog.net/2021/08/loop-rec-pre-roll/#:~:text=Pre%2DRoll%20is%20when%20you,looping%20there%27s%20no%20pre%2Droll.">source</a></li>
+</ul>
+<ol>
+<li>Disable options > Loop points linked to time selection</li>
+<li>Record mode > time selection auto punch</li>
+<li>Enable options > new recording that overlaps existing media items > splits items and creates new takes</li>
+</ol>
+<ul>
+<li>already enabled by default</li>
+</ul>
+<ol start="4">
+<li>Set monitoring mode of the track to <em>Monitor input (Tape auto style)</em> (so we don't hear the previous take during the pre-roll)</li>
+<li>Drag in a ruler for the whole section including the pre-roll</li>
+<li>Create a time selection in the area you want to record into</li>
+<li>Metronome settings - <em>count-in</em> turned off, <em>pre-roll before recording</em> turned off</li>
+</ol>
+<h3 id="render-midi-record-the-output-of-one-track-to-another">Render MIDI: Record the output of one track to another<a aria-hidden="true" class="anchor-heading icon-link" href="#render-midi-record-the-output-of-one-track-to-another"></a></h3>
+<p>Imagine we have a MIDI track with some VSTi plugin (origin track), and want to get the soundwaves of that output onto a new track (destination track).</p>
+<ol>
+<li>On the destination track, enable:</li>
+</ol>
+<ul>
+<li><em>Monitor Input</em></li>
+<li><em>Record Output</em> > <em>Record Output (stereo)</em></li>
+<li><em>Record Output</em> > <em>Output mode: post-fader</em></li>
+</ul>
+<ol start="2">
+<li>On the destination track, add the origin track(s) as a <em>receives</em></li>
+<li>Record</li>
+</ol>
+<h3 id="use-computer-keyboard-as-midi-controller">Use computer keyboard as MIDI controller<a aria-hidden="true" class="anchor-heading icon-link" href="#use-computer-keyboard-as-midi-controller"></a></h3>
+<ol>
+<li>Enable Input Monitoring on the track</li>
+<li>Input: MIDI: Virtual MIDI Keyboard > All channels</li>
+<li>View > Virtual MIDI Keyboard (<code>opt+b</code>)</li>
+<li>Arm track for recording</li>
+</ol>
+<h3 id="record-output-from-mac-to-a-track-in-reaper">Record output from Mac to a track in Reaper<a aria-hidden="true" class="anchor-heading icon-link" href="#record-output-from-mac-to-a-track-in-reaper"></a></h3>
+<p>Useful for instance if we find a Sitar drone track on Youtube that you want to insert as a track into the project</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=BzIwPV1b8M8">https://www.youtube.com/watch?v=BzIwPV1b8M8</a></li>
+</ul>
+<h3 id="automation-for-media-item">Automation for media item<a aria-hidden="true" class="anchor-heading icon-link" href="#automation-for-media-item"></a></h3>
+<p>In the FX, hit <code>param</code> > <code>show media item take envelope</code></p>

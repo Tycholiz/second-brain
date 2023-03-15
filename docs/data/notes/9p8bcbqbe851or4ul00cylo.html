@@ -1,0 +1,83 @@
+<h1 id="daw-digital-audio-workstation">DAW (Digital Audio Workstation)<a aria-hidden="true" class="anchor-heading icon-link" href="#daw-digital-audio-workstation"></a></h1>
+<h2 id="cpu-usage-and-realtime-process-vs-non-realtime-process">CPU usage and Realtime process vs Non-realtime process<a aria-hidden="true" class="anchor-heading icon-link" href="#cpu-usage-and-realtime-process-vs-non-realtime-process"></a></h2>
+<p>Consider that we can render a track to disk in less time than the duration of the track itself, while at the same time having audio issues that cause the playback to be choppy</p>
+<ul>
+<li>this is because writing to disk is a non-realtime operation, while playing back audio is a realtime operation.</li>
+<li>therefore, if you are able to render a track faster than the duration, then your playback issues are probably not due to CPU limits
+<ul>
+<li>this can be verified by checking ActivityMonitor to see how much CPU the DAW is taking up.</li>
+</ul>
+</li>
+</ul>
+<p>Consider recording in a DAW vs a process like video editing or spreadsheet editing.</p>
+<ul>
+<li>in a DAW, the CPU continually takes in WAV data from an audio interface (or MIDI) and plays it back through studio monitors, writes to memory, and also plays back the tracks that already exist in the song. If this process takes >100ms, it will be noticeable.</li>
+<li>in a video editor, our input to the program is to make edits. The nature of this is that our workflow is a cycle of making some edits, then playing it back. 100ms is too short a period of time to notice it in this workflow. </li>
+</ul>
+<h3 id="how-audio-gets-from-the-daw-to-studio-monitors">How audio gets from the DAW to studio monitors<a aria-hidden="true" class="anchor-heading icon-link" href="#how-audio-gets-from-the-daw-to-studio-monitors"></a></h3>
+<p>The DAW provides a continuous stream of digital audio data </p>
+<ul>
+<li>this data is transferred in chunks of data at a time, called the <em>buffer size</em> (set as an audio interface parameter)</li>
+</ul>
+<p>the buffer size is related to the responsiveness of the system, because once the audio is moved into the buffer, it times time to do the conversion  </p>
+<ul>
+<li>spec: therefore, the amount time the audio files take to be converted to an analog signal serves as a bottleneck</li>
+<li>because the DAW needs to respond quickly to this buffered audio data, the buffer size must be very small, and therefore refilled very often, because the DAW can only fill one buffer at a time.
+<ul>
+<li>therefore, decreasing buffer size increases the responsiveness of the system. However, a shorter buffer means that the other elements of the system must be correspondingly more efficient in order to ensure that the CPU isn't locked up for too long (recall that CPUs multitask and handle many different requests seemingly at the same time, but actually does so sequentially)
+<ul>
+<li>"other elements" here might consist of, video cards, audio interfaces, network interfaces (espectially wireless interfaces), USB controllers, disk controllers
+<ul>
+<li>often the problem lies in a video card or sound card, which is why installing new drivers is normally the first thing to do when a performance issue like this arises.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>by increasing the audio buffer size, we are essentially increasing the window of opportunity for the CPU to fill it.
+<ul>
+<li>therefore, if we are having pops and crackles that are caused by devices that deliver audio files to the computer, increasing the buffer size is essentially slowing down the train to give the CPU a chance deliver all of the expected audio data on time.</li>
+</ul>
+</li>
+</ul>
+<p>When a problem device (e.g. audio interface/driver) locks up the CPU, the DAW can't properly fill each buffer, the audio data has a gap in it, or worse, a garbled mess of random data. As the sound card receives this corrupted data, this is manifested as pops, clicks, crackles</p>
+<ul>
+<li>other times, the computer will just put everything on pause until the buffer is filled— in which case playback will produce a stutter.</li>
+</ul>
+<p><img src="/assets/images/2022-09-13-14-39-28.png"></p>
+<p>spec: an audio buffer size can be measured in ms or mb.</p>
+<ul>
+<li>if my buffer is 200ms it means that it will</li>
+</ul>
+<h3 id="fixing-problems-related-to-cracklingpopping">Fixing problems related to crackling/popping<a aria-hidden="true" class="anchor-heading icon-link" href="#fixing-problems-related-to-cracklingpopping"></a></h3>
+<ul>
+<li>check for latest drivers (note: the latest driver is not always the best for your system.)</li>
+<li>Ensure buffer size is not too small.
+<ul>
+<li>the more tracks in your project, the higher your buffer needs to be</li>
+</ul>
+</li>
+<li>Ensure that sampling rate is not too high. (a sensible default on many systems is 44.1khZ)
+<ul>
+<li>if sample rate is higher, then buffer size needs to be correspondingly bigger.</li>
+</ul>
+</li>
+<li>use a latency checker with the input devices, and see if anything pops out. If not, then it might indicate a problem with the DAW. Check for updates.</li>
+<li>disable input devices (ie. video cards, audio interfaces, network interfaces etc.) one by one and determine if problem is resolved.</li>
+</ul>
+<p>Latency = Buffer size / Sample rate</p>
+<h2 id="latency">Latency<a aria-hidden="true" class="anchor-heading icon-link" href="#latency"></a></h2>
+<p>Low rates of latency are not essential when mixing</p>
+<ul>
+<li>increasing latency can free up CPU, enabling you to run more tracks and more plugins in real time.</li>
+</ul>
+<hr>
+<h2 id="questions">Questions<a aria-hidden="true" class="anchor-heading icon-link" href="#questions"></a></h2>
+<ul>
+<li>why is buffer size in Reaper measured in ms?</li>
+</ul>
+<h2 id="e-resources">E Resources<a aria-hidden="true" class="anchor-heading icon-link" href="#e-resources"></a></h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=GUsLLEkswzE">Realtime vs non-realtime processes</a></li>
+</ul>
