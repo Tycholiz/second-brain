@@ -1,0 +1,83 @@
+<h1 id="stop-loss">Stop Loss<a aria-hidden="true" class="anchor-heading icon-link" href="#stop-loss"></a></h1>
+<h1 id="stop-loss-1">Stop Loss<a aria-hidden="true" class="anchor-heading icon-link" href="#stop-loss-1"></a></h1>
+<ul>
+<li>Where your stop loss should be is a function of how high your risk threshold is. (how much are you willing to lose to offset the upside of that investment?) 
+<ul>
+<li>ex. I need a 2x upside, meaning I will take an investment that has equal upsides of success/failure if the upside is 40% and the downside is 20%. If I buy a stock at $100, then I should set stop-loss at $80.
+<ul>
+<li>In reality, I might be inclined to go with a lower stop-loss, if I expect there to potentially be some short term losses, but I am confident of a long-term return (ex. <code>TSLA</code>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>the more risky an investor you are (in terms of expected return on the type of stocks you choose), the more loss you should be willing to risk, and the lower your stop loss.
+<ul>
+<li>Imagine when a stock like <code>WIX</code> loses 15% in a day. It's not that surprising, and can be expected with the natural volatility of the tech market. This doesn't necessarily indicate anything wrong with the company's long term business model, and you should seriously consider weathering the storm and resisting the urge to sell. This is why a 15% stop loss might be a bad idea. Ask yourself "at what point would this occur infrequently enough where an X% loss would be a bad thing?". In other words, what is beyond the realm of "everything's ok"?</li>
+<li>If this is your philosophy, you can set stop losses <em>just below</em> longer-term moving averages (just below, because technical traders set their stop-losses at moving averages. You probably don't want to sell at this exact point)
+<ul>
+<li>The amount below depends on how much risk you are willing to accept on the stock</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Stop-loss orders don't work well for large blocks of stock as you may lose more in the long run.</li>
+<li>Stop-Losses guarantee execution, but not price (slippage). 
+<ul>
+<li>In fact, most sell-stop orders are filled at a price below the strike price. The faster the stock is dropping, the further below your strike price you will ultimately sell at.</li>
+</ul>
+</li>
+<li>When the stock price reaches the stop-loss price, the order will become a market order, (meaning the stock will be sold at best price available)</li>
+</ul>
+<h2 id="stop-limit">Stop-Limit<a aria-hidden="true" class="anchor-heading icon-link" href="#stop-limit"></a></h2>
+<ul>
+<li>Whereas a regular Stop Loss becomes a <code>SELL @ Market</code> order, a Stop Limit will become a <code>SELL @ Limit</code> order
+<ul>
+<li>This means that not only do we specify the stop price, but we also specify the limit price.</li>
+</ul>
+</li>
+<li>Normal stop loss says: "when it reaches this price, just sell it"</li>
+<li>Stop-Limit says: "when it reaches <em>this</em> price (stop price), I want you to start marketing it around and only sell it when it reaches <em>this</em> price (limit price)"</li>
+<li>Limit orders by definition have no guarantee that they will execute, so likewise, even if the stop-loss trigger was hit, the stock will not necessarily be sold. </li>
+<li>Stop-Limit is the proverbial "person who is eager to sell, but only at his price" (he wants to sell, but not bad enough that the ensuing "storm" isn't worth weathering)</li>
+</ul>
+<h3 id="uses">Uses<a aria-hidden="true" class="anchor-heading icon-link" href="#uses"></a></h3>
+<ul>
+<li>These allow you to be a bit more conservative when it comes to bigger longer term shifts. For instance, COVID caused massive chunks of the market to be sold-off unjustifiably. Imagine instead of using stop-losses, you just closely watch your stocks with a keen analytical eye every day. If you saw COVID happening, you might want to hold off on selling your positions. Humans are prone to overreacting, and it is better to be cautious about what is perceived to be happening (ie. is the panic truly tantamount to the ultimate outcome of COVID?
+<ul>
+<li>If we set Stop-Limit orders, then we will better protect ourselves from these situations, </li>
+<li>At this point, you would want to re-evaluate appropriate levels of new stop losses</li>
+</ul>
+</li>
+<li>I might set a stop-limit when I think there is somewhat of a substantial dip in the stock price impending, but it's worth keeping long-term. In effect, I'll own the stock either way, but maybe I hold onto it, or maybe I sell it now, and buy it back after a period of time when I think it's on the upswing again
+<ul>
+<li>Together with buying a stop loss and stop-limit order, you might decide to execute an open buy order, to execute at a certain price when the stock is on its way up again.
+<ul>
+<li>This should only be done if you think the stock is a good long-term investment. A major market event like Covid will likely only cause a temporary dip in the market. Therefore, only execute this strategy in an effort for quick discounts on the way back up</li>
+<li>ex. have stop loss as $90, with the current being at $100. When the price drops to $90 (10% loss), we execute the SELL order, and cash out. I also have an open buy order that will only exectute at $70. The idea is that I cashed out at $90, so I am hoping for as much market drop as possible at this point. At this point, you need to put a fundamental market analysis hat on, and ask if the current market trends will continue. This is when you have to analyse if Covid will appear to get worse, driving market sentiment down. This is obviously very hard to predict, but the principle is to take a guess at how far down the price will drop. You want to be able to get your buy order executed on the way back up— assuming the stock drops down far enough for it to get fulfilled. </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="trailing-stop-loss">Trailing Stop-loss<a aria-hidden="true" class="anchor-heading icon-link" href="#trailing-stop-loss"></a></h2>
+<ul>
+<li>The stop loss point is defined as a percentage drop in the daily-high of a stock. Unlike a regular stop loss, it keeps moving each day.
+<ul>
+<li>The trailing stop value will rise, but it will never lower. The value that this adds is to lock in ever-increasing gains </li>
+</ul>
+</li>
+<li>This type of stop-loss is probably more of a trader tool than an investing tool </li>
+<li>if you are more intolerant of price fluctuation, then you might set a stop loss at 5%, meaning a SELL will be triggered if it drops that amount.</li>
+<li>A good strategy may be to use both regular stops and trailing stops.
+<ul>
+<li>ex. set a stop at 5%, and a trailing stop at 10%. This means that you'll never lose more than 5% of your investment, and as the stock rises, you become more tolerant of price drops (accepting up to 10%). However, you'll never lose more than 5%. </li>
+<li>"The trailing stop/stop-loss combo eliminates the emotional component from trading, letting you rationally make measured decisions based on statistical information."</li>
+</ul>
+</li>
+<li>The trail value that you decide on should accommodate "normal" price fluctuations
+<ul>
+<li>ex. if a stock routinely moves 5% in any given day, it makes no sense to set the trailing stop at 5%</li>
+</ul>
+</li>
+<li>It might make sense to tighten the trailing stop level (ex. 5% -> 4%) as the stock price rises, if we are more concerned about locking in profits as opposed to taking advantage of further growth in the stock</li>
+</ul>

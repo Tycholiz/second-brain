@@ -1,0 +1,117 @@
+<h1 id="compressor">Compressor<a aria-hidden="true" class="anchor-heading icon-link" href="#compressor"></a></h1>
+<h2 id="what-is-it">What is it?<a aria-hidden="true" class="anchor-heading icon-link" href="#what-is-it"></a></h2>
+<p>A compressor is a <a href="/notes/lx0mkvcis0eemrd9nphbm1p">volume</a> function. After a certain threshold of dB, the volume is decreased.</p>
+<ul>
+<li>The result is a reduction in the dynamic range of an audio signal</li>
+</ul>
+<p>If we visualize music in a 3D space, where volume is represented as distance from us, a compressor is like a wall that sits between us and the sound. If using a limiter (ie. a compressor with a max threshold), then the wall will not allow the sound to get past that threshold at all.</p>
+<ul>
+<li><a href="https://youtu.be/TEjOdqZFvhY?t=3138">ref</a></li>
+</ul>
+<p>The original purpose of a compressor was to reduce dynamics. While they can, and that was their original intention, it isn’t the entire story. They’re actually relatively poor at this job compared to other tools. Think of compressors as tools that help you shape the Envelope of the source. Compressors can reduce or expand the dynamics of a source.</p>
+<p>Playing with the attack is a good place to start for beginners because it’s the easiest to hear. Hearing the effect of the release is a little trickier but really great once you get the hang of it. Being able to create depth with just compression and EQ really elevates your mixes, without having to rely on reverb etc to do this for you exclusively.</p>
+<p>If you set the threshold lower than the attack, it'll take a bit of time to get down to the new compressed level every time a sound starts, causing it to have a 'punch' or 'snap' like sound when the sound starts.</p>
+<ul>
+<li>Sometimes you like that snap, sometimes you want that snap to push into the limiter/master chain to saturate it a bit. Or even just slap a saturator on the end so the level is still the same as before, but now it has a bit more saturation on the start of phrases.</li>
+</ul>
+<h3 id="flavors-of-compressor">Flavors of compressor<a aria-hidden="true" class="anchor-heading icon-link" href="#flavors-of-compressor"></a></h3>
+<p>The stated goal of a compressor has always been to "tighten the leash on a source". While transparency was always the intent, historically, analog compressors always had their own sound to them. With the advent of the DAW, digital compressors are able to offer true transparency, though the artifact flavor imparted by the analog compressors have since been considered desirable.</p>
+<ul>
+<li>the stock compressors in a DAW usually offer a transparent (flavorless) compressor</li>
+</ul>
+<h2 id="why-use-it">Why use it?<a aria-hidden="true" class="anchor-heading icon-link" href="#why-use-it"></a></h2>
+<p>3 main purposes</p>
+<ul>
+<li>better signal/noise ratio (ie. less hiss)</li>
+<li>stabilize the sound image (ie. more presence)</li>
+<li>bring sound elements closer/further away from listener</li>
+</ul>
+<h3 id="better-signal">Better signal<a aria-hidden="true" class="anchor-heading icon-link" href="#better-signal"></a></h3>
+<p>if we have quiet parts and loud parts in a song, simply reducing the volume will take care of unintended distortion from the loud sounds, but it will make the quiet sounds too quiet, and lead to hiss. </p>
+<h3 id="stabilize-the-sound-image">Stabilize the sound image<a aria-hidden="true" class="anchor-heading icon-link" href="#stabilize-the-sound-image"></a></h3>
+<p>More chaotic mixes need more compression. Compression will stabilize sounds, giving them more presence. </p>
+<ul>
+<li>You might to decide to compress one sound moreso to give it more relative presence, or you may decide to compress everything to increase overall presence of the mix</li>
+</ul>
+<p>Adding heavy compression to a sound and then turning up the volume is a technique that can do 2 different things:</p>
+<ul>
+<li>make a sound front and centre (e.g. electric guitar)</li>
+<li>prevent a softer sound from being lost in the mix
+<ul>
+<li><a href="https://youtu.be/TEjOdqZFvhY?t=3059">ref</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="bring-sound-elements-closerfurther-away-from-listener">Bring sound elements closer/further away from listener<a aria-hidden="true" class="anchor-heading icon-link" href="#bring-sound-elements-closerfurther-away-from-listener"></a></h3>
+<p>As explained <a href="/notes/lx0mkvcis0eemrd9nphbm1p#volume-as-a-measure-of-depth-control">here</a>, volume alone does not do a sufficient job of letting the engineer move sounds closer/further away from the listener.</p>
+<p>Note: the following is a rough guide</p>
+<p>to bring a sound element closer in the mix:</p>
+<ul>
+<li>set ratio somewhere around 3:1 to 6:1</li>
+<li>set a threshold so that gain reduction is only around -2dB to -3dB</li>
+<li>set an <a href="/notes/lx0mkvcis0eemrd9nphbm1p#rms-root-mean-square">RMS</a> value of between 200-250</li>
+<li>add in as much gain as required from the wet output fader.</li>
+</ul>
+<p>to push a sound element back in the mix:</p>
+<ul>
+<li>set ratio somewhere around 8:1 to 16:1</li>
+<li>set a threshold so that gain reduction is engaged most of the time, with gain reduction of around -6dB to -10dB</li>
+<li>set an <a href="/notes/lx0mkvcis0eemrd9nphbm1p#rms-root-mean-square">RMS</a> value of 0</li>
+<li>add between 1dB-3dB of gain to the wet output fader.</li>
+</ul>
+<p>to bring a sound element up front in the mix</p>
+<ul>
+<li>use settings similar to those suggested for pushing sound elements back in the mix</li>
+<li>add in a lot of gain with the wet output fader (around 9dB, or even more)</li>
+</ul>
+<h2 id="how-to-use-it">How to use it?<a aria-hidden="true" class="anchor-heading icon-link" href="#how-to-use-it"></a></h2>
+<p>A ratio of 4:1 and threshold of 6dB gain reduction is usually a good place to start</p>
+<h3 id="mix-bus">Mix Bus<a aria-hidden="true" class="anchor-heading icon-link" href="#mix-bus"></a></h3>
+<p>Attack + Release times are crucial on the mix bus</p>
+<p>Normally set at a 4:1 ratio</p>
+<p>SSL G compressor is industry standard</p>
+<p>slower attack times will give you more punch, but faster attack times will grab things and help glue them together</p>
+<h2 id="types-of-compressor">Types of compressor<a aria-hidden="true" class="anchor-heading icon-link" href="#types-of-compressor"></a></h2>
+<p>There are 2 types of compressor</p>
+<ul>
+<li>downward</li>
+<li>Upward </li>
+</ul>
+<p>Downward compression reduces the volume of loud sounds above a certain threshold. This is the more common type of compression. </p>
+<p>Upward compression increases the volume of quiet sounds below a certain threshold.</p>
+<p>Threshold timing behavior is subject to attack and release settings. When the signal level goes above threshold, compressor operation is delayed by the attack setting. For an amount of time determined by the release after the input signal has fallen below the threshold, the compressor continues to apply dynamic range compression.</p>
+<p>The amount of gain reduction is determined by ratio: a ratio of 4:1 means that if input level is 4 dB over the threshold, the output signal level is reduced to 1 dB over the threshold. The gain and output level has been reduced by 3 dB. Another way of stating this is that any input signal level over the threshold will, in this case, be output at a level which is only 25% (i.e. 1 over 4) as much over the threshold as its input level was.</p>
+<p>The highest ratio of ∞:1 is known as <em>limiting</em>, and effectively denotes that any signal above the threshold is brought down to the threshold level once the attack time has expired.</p>
+<h3 id="expansion">Expansion<a aria-hidden="true" class="anchor-heading icon-link" href="#expansion"></a></h3>
+<p>Some compressors also have the ability to do the opposite of compression, namely expansion. Expansion increases the dynamic range of the audio signal. Like compression, expansion comes in two types, downward and upward.</p>
+<p>Downward expansion make the quiet sounds below the threshold even quieter. A noise gate can be thought of as an extreme form of downward expansion as the noise gate make the quiet sounds (for instance: noise) quieter or even silent</p>
+<p>Upward expansion make the louder sounds above the threshold even louder.</p>
+<h3 id="compressing-before-or-after-eq">Compressing before or after EQ<a aria-hidden="true" class="anchor-heading icon-link" href="#compressing-before-or-after-eq"></a></h3>
+<p>using EQ in front of your compressor produces a warmer, rounder tone, while using EQ after your compressor produces a cleaner, clearer sound. So, the question you need to ask yourself for each channel in your mix is, “Do I want to EQ the compressed signal or do I want to compress the EQed signal? What sound do I want for this signal?”</p>
+<hr>
+<h3 id="where-in-the-fx-chain-to-use-compressor">Where in the FX chain to use compressor.<a aria-hidden="true" class="anchor-heading icon-link" href="#where-in-the-fx-chain-to-use-compressor"></a></h3>
+<p>Compressors should typically be applied after subtractive <a href="/notes/hu145turrip9wlrmcenxfhg">EQ</a></p>
+<ul>
+<li>imagine we had a singer who grabbed the mic when singing, resulting in a low rumble at sporadic points in the song. Since a compressor doesn't know the difference about frequencies, the low rumble would cause all frequencies to duck. Therefore, we must EQ out the rumble first so the compressor doesn't get triggered and lower the volume of all frequencies.</li>
+</ul>
+<p>Sounds with harsh transients (e.g. handclaps, snare) can be tamed with a compressor with <em>slow attack</em> in order to allow a portion of the transient through. Afterwards, apply additive EQ (~2000 hZ for handclaps) to make the sound more apparent.</p>
+<ul>
+<li>if we had applied the additive EQ before compression, that boost could push the compressor in an unwanted way, and actually negate the EQ's effect.</li>
+</ul>
+<h2 id="ue-resources">UE Resources<a aria-hidden="true" class="anchor-heading icon-link" href="#ue-resources"></a></h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=K0XGXz6SHco">How to hear compression</a></li>
+<li><a href="https://www.soundonsound.com/techniques/parallel-compression">Parallel Compression</a></li>
+</ul>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/notes/2himbbw3l9dpljo03z3vpr5">Parameters</a></li>
+<li><a href="/notes/2ac3ex5vvidpf4v3qdozndp">Techniques</a></li>
+</ol>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/notes/zn9sam5nkf2iipacb540e0q">Gate</a></li>
+<li><a href="/notes/lx0mkvcis0eemrd9nphbm1p">Volume</a></li>
+</ul>

@@ -1,0 +1,69 @@
+<h1 id="midi">Midi<a aria-hidden="true" class="anchor-heading icon-link" href="#midi"></a></h1>
+<p>Midi is a protocol</p>
+<p>Stands for <em>musical instrument digital interface</em></p>
+<p>Midi events are the building blocks of a Midi part.</p>
+<ul>
+<li>with virtual drums, each hit is an event.</li>
+<li>each event carries information about the note: its velocity, its pitch, vibrato level, pan etc. </li>
+</ul>
+<p>A MIDI file essentially a giant list of events, and values for the events.</p>
+<p>A single MIDI link through a MIDI cable can carry up to sixteen channels of information, each of which can be routed to a separate device or instrument</p>
+<p>Every midi event has a value range of 0-127</p>
+<p>When you first learn MIDI, you learn perhaps its most common application: playing virtual instruments. But it's helpful sooner or later to think of MIDI more as a simple protocol for sending messages. What these messages are? that's for the MIDI controller (physical or virtual) to determine.</p>
+<ul>
+<li>ex. a virtual drum kit might have a MIDI signal that equates to the drummer tightening the hi-hat pedal. This is not a "hit" of the drum per-se, but is rather a signal that informs the DAW that the pedal has now been depressed.</li>
+</ul>
+<p>MIDI architecture imposes a limit of 16 channels per device.</p>
+<ul>
+<li>this restriction can be worked around by using a MIDI patch bay to allow multiple devices to be connected</li>
+</ul>
+<p>You can theoretically use midi to control just about anything that requires events and values.</p>
+<ul>
+<li>you can control the light show at a concert with midi</li>
+</ul>
+<h3 id="omni-on">Omni on<a aria-hidden="true" class="anchor-heading icon-link" href="#omni-on"></a></h3>
+<ul>
+<li>A device can be configured to only listen to specific channels and to ignore the messages sent on other channels ("Omni Off" mode), or it can listen to all channels, effectively ignoring the channel address ("Omni On")</li>
+</ul>
+<h3 id="cc-control-change">CC (Control Change)<a aria-hidden="true" class="anchor-heading icon-link" href="#cc-control-change"></a></h3>
+<p>Think of CC as a virtual knob with values of 0-127. Every Midi Channel has 128 CCs. Meaning for every channel, you can control 128 values, or "128 different knobs, sliders, switches."</p>
+<p>CC is used to extend the range of functionality of a MIDI message.</p>
+<p>Manufacturers of MIDI controllers assign unique CC numbers to each knob/encoder and are immutable.</p>
+<ul>
+<li>ex. a hardware synthesizer filter cutoff could be controlled using MIDI CC, without having to physically turn the knob. </li>
+<li>ex. a Roland drumkit can be configured to give greater control over which part of the drum was hit.</li>
+</ul>
+<h3 id="plug-in-pin-connector">Plug-in pin connector<a aria-hidden="true" class="anchor-heading icon-link" href="#plug-in-pin-connector"></a></h3>
+<p>We have 2 parts: the input channel and the output channel</p>
+<p><img src="/assets/images/2022-04-05-11-31-49.png"></p>
+<ul>
+<li>When we use stereo, we need 2 channels, so the above image could correspond to one instrument. </li>
+</ul>
+<h3 id="step-recording">Step recording<a aria-hidden="true" class="anchor-heading icon-link" href="#step-recording"></a></h3>
+<ul>
+<li>This method of recording MIDI lets us enter midi notes, then automatically jump to the next column in the grid (of piano roll). Put another way, it is perfectly in time.</li>
+<li>ex. we have a 4/4 song and we define each step as a quarter note. We decide to record the kick drum, so we hit the midi key. That key press will be recorded, and then the position in the song will move to the next quarter note. Again if we hit the midi key, that will be recorded and the position of the cursor will move to the next quarter not</li>
+<li>Doing it in this way by nature will result in the sound being robotic, since it is perfect timing.</li>
+<li>The velocity is tracked when we hit the midi keys</li>
+</ul>
+<h3 id="quantize">Quantize<a aria-hidden="true" class="anchor-heading icon-link" href="#quantize"></a></h3>
+<ul>
+<li>Quantizing is a concept that accomplishes the problem: how do we take our badly timed midi track and make the notes fit perfectly with the tempo?</li>
+<li>when we are laying down a midi track, we can quantize the notes so that they are perfectly aligned with the grid. This alignment will depend on how granular the grid currently is.</li>
+<li>we can decide which part of the note will line up to the grid
+<ul>
+<li>position (start of note), end of note, whole note length, and any
+combination of the preceding.</li>
+</ul>
+</li>
+<li>We can also determine how close to the grid it will be with <code>Strength</code>. Using 100% will make it perfect, but this can detract from some of the expression
+that comes through the playing of a skilled musician.</li>
+<li>We can permit the notes to align to the grid on either side, which by default will be fully checked.</li>
+</ul>
+<h3 id="simulating-legato-with-stringed-instruments">Simulating Legato with stringed instruments<a aria-hidden="true" class="anchor-heading icon-link" href="#simulating-legato-with-stringed-instruments"></a></h3>
+<ul>
+<li>ex. hammer on, pull off</li>
+<li>allow the first note to overlap the second note slightly. This will reduce the
+staccato nature of the guitar, and make it sound like a smoother transition.</li>
+<li>Another method is to use pitch bends, but don't make them smooth. Make the pitch bends quantized at semitones. It sounds realistic for slides/pull-offs/hammer-ons.</li>
+</ul>

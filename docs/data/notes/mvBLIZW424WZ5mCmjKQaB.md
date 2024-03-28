@@ -1,0 +1,5 @@
+
+### Time
+Once time is a resource to be used, you start to feel pressure, whether from external forces or from yourself, to use it well, and to berate yourself when you feel you’ve wasted it.
+
+In the past, before clocks, Time was just a medium in which life unfolded, the stuff that life was made of. Afterward, once time in life had been separated in most peoples minds, time became a thing that you used. It’s this shaft that serves as a precondition for all the uniquely modern ways in which we struggle with time today

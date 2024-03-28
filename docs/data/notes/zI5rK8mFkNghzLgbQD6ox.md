@@ -1,0 +1,154 @@
+
+# How it happens
+New species evolve by splintering off from established ones, when populations of organisms become isolated from the main branch of their family and acquire sufficient differences to remain forever distinct. 
+
+The parent species may survive indefinitely thereafter, or it may become extinct.
+
+Evolution is not about the survival of any one species; it is about the survival of the whole of nature (which can be thought of as “the survival of DNA itself”
+
+## Thought experiment
+- Take 2 animals/plants (ex. A rabbit and a leopard)
+- Start with a rabbit, and draw its parent to the left, and its parents' parent further to the left, and so on. 
+	- each node is surrounded on either side by its child and its parent. It’s easy to identify each of those nodes that surround it as part of the same species, since they all have more or less the same features.
+- continue this process of adding nodes (parents), and over millions of years we will have resulted in something that is quite distinct from a rabbit, even though we could never observe the changes from node to node (just like you cannot observe an hour hand on a clock move, or observe a child grow up)
+- as we continue to go to the left (ie. back in time), we eventually arrive at the hairpin species– the common ancestor between the rabbit and the leopard. 
+- now, we start to go forward in time, but this time, toward the modern day leopard. 
+	- along the way we see many forks, some of which lead to species that eventually went extinct, and some further down the line which exist in the modern day
+- Continuing along the path, we eventually arrive at the leopard
+
+This thought experiment is the answer to the common plaint "if humans are descended from chimpanzees, why are there still chimpanzees?". Just as rabbits did not descend from leopards, humans did not descend from chimpanzees. Rabbits are cousins of leopards, just as humans are cousins of chimpanzees— we are just closer cousins.
+
+* * *
+
+Consider the Madagascar moths and the flowers that are perfectly coloured to appeal to them. From the perspective of the moths, the flowers are like reliably productive milk cows, while from the perspective of the flowers, the moths are like reliable federal express service. Each side could have been said to have domesticated the other, selectively breeding them to do a better job than they previously did. 
+
+Red flowers are almost certainly pollinated by birds rather than insects, due to the fact that insects don’t see red
+
+* * *
+
+Humans are more likely to notice anything negative, and to treat it as more salient, a tendency evolution fostered because being injured, attacked, or eaten matters much more to the transmission of genes than pleasant experiences do.
+
+based on evolution, humans generally know which generalizations to make
+- ex. a researcher shows a child a picture of an overweight dark skinned person, and says that he is part of a tribe. the child instinctively knows to generalize attributes like skin color and not generalize weight
+
+### Evolution of Women
+Men's tendency to aggression and women's tendency to submission is not just cultural, it's biological. 
+
+Throughout history, men competed against each other for the opportunity to impregnate fertile women. This meant the most ambitious, aggressive and competitive men were more likely to pass down their genes, making the whole of males overall in this vein. 
+
+On the other hand, women had no problem finding men to impregnate them. However, they also needed a lot more help, since children require lots of care. They needed a man to stay with them for longer periods of time, leaving them more desperate for the man to stay. This resulted in them having to agree to whatever conditions the man stipulated. Over time, these submissive qualities helped women to pass on their genes, making the overall pool of women more submissive. 
+
+* * *
+
+Evolution prefers to build on top of itself, rather than start from scratch
+- expl. What results is modern human intelligence built on top of primitive human impulses
+- ex. Self control is built on top of desire 
+
+Rather seeing natural selection as a species related thing, see it as a gene related thing. Instead of animals beating each other out for survival and dominance, think of it as genes beating each other out for dominance. This is natural selection, and of course all genes together make up an organism. Important is to see it at the atomic scale that make up the whole organism
+
+There are three things that are needed for a species to be considered intelligent. opposable thumbs or otherwise something with which they can manipulate the environment. Predator eyesight which is eyes at the front of the head rather than the sides. And language with which information can be passed on to offspring
+
+### Microevolution
+- Microevolution looks at changes within species over time—changes that may be preludes to speciation, the origin of new species.
+- skeptics are at least to an extent willing to accept microevolution.
+- ex. the evolution of a beak over time to adapt to the environment
+
+### Macroevolution
+- Macroevolution studies how taxonomic groups above the level of species change. Its evidence draws frequently from the fossil record and DNA comparisons to reconstruct how various organisms may be related.
+
+- To arrive at a conclusion does not require direct observation. 
+    - hypotheses can still be tested by checking whether they accord with physical evidence and whether they lead to verifiable predictions about future discoveries
+    - ex. evolution implies that between the earliest known ancestors of humans and the appearance of anatomically modern humans, one should find a succession of hominin creatures with features progressively less apelike and more modern, which is indeed what the fossil record shows. But one should not—and does not—find modern human fossils embedded in strata from the Jurassic period (65 million years ago).
+
+# Events
+## Cambrian Explosion
+- 541 MYA (lasting about 20m years)
+- This is the period where all of the phyla (the hierarchical class below
+    kingdom) started appearing on the fossil record.
+    - In other words, different type of animals started appearing.
+- This is the period that more resembles life right now, since before this,
+    there were no sentient beings walking around — only non-sentient plants,
+    bacteria, fungi etc.
+
+# Facts
+- There are between 10-14 million species on the planet, and we've discovered
+    1.2 million.
+- Traits that stick around longer will become stronger over time. The reason
+    they stick around could be because humans are interfering (ex. selecting
+    chickens who lay more eggs), or it may be the more natural reason: The trait
+    is helping them survive. No matter the cause, the result is the same.
+- chimps are more closely related to humans than they are to gorillas
+  - if you and your brothers dna can be linked to each other (due to their overwhelming similarities brought on from the same parent), then similar dna between species should be indicitive of a common ancestor among them 
+  - on average, humans have 99.9% the same DNA as another human. Chimps have 88.8% the same DNA as humans overall
+
+# Logic
+## Points
+- Whales have an ancestor that lived on the land, the Indohyus. Mammals tend to
+    live on land. The reason is because mammals adapted to best handle their
+    environment. In their partiular environment, the best way was to breathe in
+    oxygen. 
+	- a 50 million-year-old, dog-sized member of the extinct raoellidae ungulate family — had ears, teeth and bones that resembled whales, not other raoellids.
+    - However, a whale is one of a few mammals that live in the water. How did
+	this happen? Less important is the question of why it happened, since
+	there are many reasons why a species may adapt and evolve. What is
+	better is to realize that mammals almost exclusively live on the land.
+	The fact that there are a few that live in the water raises the question
+	"why?". 
+	- Being able to duck under the water to avoid prey is a survival trait.
+	    The Indohyus would do this. Logic would suggest that the species
+	    evolved over time to give rise to whales because there were more
+	    manageable threats in the water than on land.
+- There are many similarities between every single species on the planet. This
+    implies that there is a common ancestor 
+- like humans, other hominids (like apes) can also get Down Syndrome, though it is not observed in any other animal. This implies some kind of genetic similarity between humans and apes.
+- Consider how much variation there has been with dogs. If so much evolutionary change can occur in just a few centuries or even decades, just think about what might be achieved in ten or a hundred million years.
+
+## Questions for them to ponder
+- Do you believe that horses and cows are more similar than horses and reptiles?
+    or birds and reptiles?
+    - If so, what makes them more similar? Are they just designed that way, or
+	are they derived from the same place? If they are designed, why then do
+	they have microscopic similarities between each other, like same
+	structure of hooves, same teeth etc.
+    - Does it make sense that the more similar something is, the more likely
+	that they are derived from the same place?
+	- Mammals have lots in common. Babies are stored in the uterus.
+	    Placentalias (a sub-mammal group; humans are here) have lots in common too. Their babies are stored in the uterus, until the baby is at a late stage of development.
+	- This logic shows that we have commonalities. How did they occur? Does
+	    the logic make sense that if they were derived from a common
+	    ancestor, that each produced species would have commonalities as
+	    well as differences?
+	- It might be believed that these groupings exist (mammal, reptile etc.)
+	    as a convenience to name things that have similarities. What is
+	    being missed here, is that the reason they have similarities is
+	    because they are derived from a single source.
+- fossil records for humans go back farthest in Africa (4 million years). Anywhere else in the world, fossils of this age don't exist. This implies that we originated in Africa. As diaspora happened, tribes separated and maintained distance. Over hundreds of thousands of years, humans further adapted to their environment which caused them to look differently (resulting in different races)
+- when you look at the landscape of Christianity what do you see? What do you make of the 100's of denominations? How are they similar? Different? Are there some that are more similar than others, or are they all equally different? Would you almost say that some have more similar DNA? If so, why do you think that is? Can you imagine a world where there was an arbitrary Christian Church, and both of its leaders disagreed on a topic, so they each made their own denomination? Wouldn't that result in a large web of denominations, with varying degrees of similarity?
+
+## Responding to arguments against
+- saying "if we came from monkeys, why are there still moneys is tantamount to 
+    asking, “If children descended from adults, why are there still adults?” 
+    - a child becoming an adult is a natural *evolution*, which causes
+	confusion.
+
+* * *
+
+Even if some trait didn’t provide an advantage it could still be carried along as long as it’s not harmful. That neutral trait may be shown to be advantageous or even disadvantageous at some point in the future
+
+The cockroach is about the same organism as it was millions of years ago because its characteristics were adaptive then and now.
+
+Humans have spent 99% of their evolutionary history as hunter gatherers 
+- This shows how dominant the environment of those early humans was in shaping our biology. To understand human biology is to understand what it was like to be a human during that period
+- If we compressed the 4 million years of human evolution into a 24 hour clock, agriculture started at 23:55
+
+A high sense of mortality in a single person or their family will offer little to no evolutionary advantage, but a high sense of morality among an entire tribe will in fact offer an advantage over a less moral tribe. 
+
+Once an organism has survived past the age of reproduction, the organism is evolutionarily useless
+
+## Resources to show
+- [list of phylum that make up the animal kingdom, and how they are categorized according to their similarities](https://en.wikipedia.org/wiki/Phylum#Animals)
+
+# UE Resources
+- http://humanorigins.si.edu/evidence/genetics/human-skin-color-variation 
+- https://en.wikipedia.org/wiki/Relationship_between_religion_and_science
+- https://en.wikipedia.org/wiki/Gene-centered_view_of_evolution

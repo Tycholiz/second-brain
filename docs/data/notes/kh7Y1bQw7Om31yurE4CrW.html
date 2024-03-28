@@ -1,0 +1,381 @@
+<h1 id="statistics">Statistics<a aria-hidden="true" class="anchor-heading icon-link" href="#statistics"></a></h1>
+<p>A person who doesn't stop to consider the assumptions of the techniques she's using is, in effect, thinking that her techniques are magical</p>
+<h1 id="overview">Overview<a aria-hidden="true" class="anchor-heading icon-link" href="#overview"></a></h1>
+<h2 id="approaches">Approaches<a aria-hidden="true" class="anchor-heading icon-link" href="#approaches"></a></h2>
+<h3 id="descriptive-statistics">Descriptive Statistics<a aria-hidden="true" class="anchor-heading icon-link" href="#descriptive-statistics"></a></h3>
+<ul>
+<li>a summary of data that quantitatively describes or summarizes features from a collection of information</li>
+<li>aim is to summarize a sample
+<ul>
+<li>It is therefore parametric
+<ul>
+<li>ie. the analysis of the statistical set is based on parameters, like <code>variance</code>, or a <code>central tendency</code> (ie. mean, median, mode, range)
+<ul>
+<li>a central tendency is often contrasted with its own level of variance</li>
+<li>both central tendencies and their levels of variance are considered main properties of a distribution. With them we may judge whether a set of data has a strong central tendency based on the level of variance that it has.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>ex. <em>mean</em>, <em>standard deviation</em></li>
+<li>spec: description statistics are backward looking, inductive statistics are forward looking</li>
+<li>descriptive statistics does not rest on the assumption that the data came from a larger population</li>
+</ul>
+<h3 id="inferential-inductive-statistics">Inferential (Inductive) Statistics<a aria-hidden="true" class="anchor-heading icon-link" href="#inferential-inductive-statistics"></a></h3>
+<ul>
+<li>aim is to learn about the population that the sample represents
+<ul>
+<li>Therefore, it is developed on the basis of probability theory and by definition, cannot be parametric</li>
+</ul>
+</li>
+<li>Statistical inference is the process of analyzing data to make inferences on an underlying</li>
+<li>Descriptive stats do add valuable context when trying to analyze data inductively. 
+<ul>
+<li>ex. in papers reporting on human subjects, typically a table is included giving the overall sample size, sample sizes in important subgroups, as well as demographic info like age, sex, ethnicity</li>
+</ul>
+</li>
+<li>The conclusion of a statistical inference is called a <code>statistical proposition</code></li>
+</ul>
+<h2 id="probability-distribution">Probability Distribution<a aria-hidden="true" class="anchor-heading icon-link" href="#probability-distribution"></a></h2>
+<ul>
+<li>def - the mathematical function that tells us the probability that each possible outcome occurs. </li>
+<li>It is a mathematical representation of a random phenomenon</li>
+<li>It is a function which takes the <code>sample space</code> (ie. all possible outcomes) as an input, and returns us the probability of their occurrence.
+<ul>
+<li>ex. of a coin flip, <code>sample space = {HEADS, TAILS}</code></li>
+<li>In other words, we give the function a single possible outcome, and the graph gives us the probability of that outcome occurring (the outcome of an event occurring is a subset of the sample space.</li>
+</ul>
+</li>
+<li>the probability distribution and the random variables which they describe underlies the mathematical discipline of probability theory</li>
+<li>Probability distributions are more preferable than simple numbers for describing a quantity because:
+<ol>
+<li>There is spread or variability in almost any value that can be measured in a population</li>
+<li>almost all measurements are made with some intrinsic error
+<ul>
+<li>ex. in physics many processes are described probabilistically</li>
+</ul>
+</li>
+</ol>
+</li>
+<li><a href="https://en.wikipedia.org/wiki/List_of_probability_distributions">Common probability distributions</a>:
+<ul>
+<li>normal distribution, which is related to linear growth</li>
+<li>pareto distribution (pareto principle), which is related to exponential growth</li>
+</ul>
+</li>
+</ul>
+<h3 id="discrete-probability-distribution">Discrete Probability Distribution<a aria-hidden="true" class="anchor-heading icon-link" href="#discrete-probability-distribution"></a></h3>
+<ul>
+<li>All binomial distributions are discrete
+<ul>
+<li>in other words, they are composed of discrete random variables
+<ul>
+<li>variable here, refers to the potential outcomes (observations) that can occur</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>The set of possible outcomes is discrete and predictable
+<ul>
+<li>ex. coin toss, dice roll</li>
+</ul>
+</li>
+</ul>
+<h3 id="continuous-probability-distribution">Continuous Probability Distribution<a aria-hidden="true" class="anchor-heading icon-link" href="#continuous-probability-distribution"></a></h3>
+<ul>
+<li>All normal distribtions are continuous</li>
+<li>The set of possible outcomes can take place on a continuous range
+<ul>
+<li>ex. temperatures</li>
+</ul>
+</li>
+<li>These probabilities are described by a <code>probability density function</code> (PDF)
+<ul>
+<li>This function takes in a single sample from the <code>sample space</code> and returns us "the probability that the input variable would equal that sample in real life"</li>
+<li>ex. what is the probability that the temperature at 7:00PM, as measured in reality, is equal to the sample recorded in this sample?</li>
+</ul>
+</li>
+<li>the absolute likelihood for a continuous random variable to take on any particular value is 0
+<ul>
+<li>This is because there are an infinite set of possible values (ie. infinite sample space)</li>
+</ul>
+</li>
+</ul>
+<h3 id="univariatemultivariate-distribution">Univariate/Multivariate Distribution<a aria-hidden="true" class="anchor-heading icon-link" href="#univariatemultivariate-distribution"></a></h3>
+<ul>
+<li>Univariate - The probability distribution of only 1 random variable</li>
+<li>Multivariate - The probability distribution of multiple random variables (a vector)
+<ul>
+<li>regression towards the mean can be defined for any bivariate distribution with identical <a href="https://en.wikipedia.org/wiki/Marginal_distribution">marginal distributions</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="kurtosis">Kurtosis<a aria-hidden="true" class="anchor-heading icon-link" href="#kurtosis"></a></h3>
+<ul>
+<li>a staple of probability theory</li>
+<li>It is a measure of dispersion (along with <code>variance</code>, <code>skewness</code> and <code>min/max values</code>)</li>
+<li>Kurtosis is a measure of the "tailedness" of a distribution
+<pre><code>- In other words, the sharpness of the peak of the bell curve
+</code></pre>
+<img src="/assets/images/2021-03-27-20-48-10.png"></li>
+</ul>
+<hr>
+<p>The first step when analyzing any statistical analysis is what ways are they measuring the parameters. For instance if we are measuring popularity of websites have a certain date range, then we would have to know are you calculating that by how many visits the sites gets or are you talking about how much time is spent on each site, and so on by asking questions like this we understand better the true intentions of the author of the analysis</p>
+<p>The way the overall proportion of coin flips settles down to 50% isn’t that fate favors tails to compensate for the heads that have already landed; it’s that those first ten flips become less and less important the more flips we make.</p>
+<p>The null hypothesis, in executive bullet-point form:</p>
+<ol>
+<li>Run an experiment.</li>
+<li>Suppose the null hypothesis is true, and let <code>p</code> be the probability (under that hypothesis) of getting results as extreme as those observed.</li>
+<li>The number <code>p</code> is called the <em>p-value</em>.</li>
+<li>If it is very small, rejoice; you get to say your results are statistically significant.</li>
+<li>If it is large, concede that the null hypothesis has not been ruled out.</li>
+</ol>
+<p>“Statistically noticeable” or “statistically detectable” would be a better term than “statistically significant”</p>
+<ul>
+<li>That would be truer to the meaning of the method, which merely counsels us about the existence of an effect but is silent about its size or importance.</li>
+</ul>
+<p>The purpose of statistics isn’t to tell us what to believe, but to tell us what to do.
+Statistics is about making decisions, not answering questions.</p>
+<p>Pie charts should not have more than 3 variables included</p>
+<ul>
+<li>reasoning: when there are more than 3, our eyes start playing tricks and we are no longer able to draw conclusions from the visualization
+<ul>
+<li>verify this claim (originally from Layton) </li>
+</ul>
+</li>
+</ul>
+<p>Faking randomness</p>
+<ul>
+<li>When people try to purposely make something look random, it ends up being evidence that it wasn't a random process at all. Chunks occur naturally in a randomized process. When we try to fake it, we naturally avoid chunking. This is a clue that it was a faked process.</li>
+<li>ex. 7738499 is more likely to be a random number than 3950681. the second example has no chunked numbers, and no repeated numbers. This looks deliberately crafted to seem random.</li>
+</ul>
+<h1 id="population-vs-sample">Population vs Sample<a aria-hidden="true" class="anchor-heading icon-link" href="#population-vs-sample"></a></h1>
+<ul>
+<li>population denotes all members of a group. 
+<ul>
+<li>spec: Depending on what we are looking at, and what we are interested in, within the stock market, a populate could be every single stock in existence, or it could be every stock in the S&#x26;P500. </li>
+<li>populations are difficult to observe in real life
+<ul>
+<li>ex. how could we realistically obtain the data with every single student at a university included?</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>sample denotes that we are taking some subset of this population for analysis purposes</li>
+<li>The goal of statistics is to gather and analyze data from a sample, that also serves as a good representation of the entire population </li>
+<li>a good sample: each unit in the sample should have had equal % opportunity to enter the sample (from the population).
+<ul>
+<li>ex. if we wanted to get a sample of all students, and went and chose 50 people in the Gym, we are getting a bad sample, because the likelihood of any one person in the gym getting selected for the sample is higher than the likelihood of any one person in the library getting selected for the sample. We are not getting a good representation of the population</li>
+</ul>
+</li>
+<li>Samples should be both 100% (ideally) random and representative of the population</li>
+<li>Statistics are derived from samples, while Parameters are derived from populations
+<ul>
+<li>At a particular time, there may exist a Parameter for the percentage of all voters in USA who prefer Donald Trump, but we obviously can't ask everyone, so we need to take a sample. </li>
+<li>Parameters are therefore more of an ephemeral value that can't actually be obtained in the current moment. We use samples to try and get as close to that parameter as we can. </li>
+</ul>
+</li>
+</ul>
+<h1 id="variance-standard-deviation-coefficient-of-variation">Variance, Standard Deviation, Coefficient of Variation<a aria-hidden="true" class="anchor-heading icon-link" href="#variance-standard-deviation-coefficient-of-variation"></a></h1>
+<h3 id="variance">Variance<a aria-hidden="true" class="anchor-heading icon-link" href="#variance"></a></h3>
+<ul>
+<li>measures how far a set of numbers are spread out from their average value
+<ul>
+<li>a measure of dispersion of a datapoint around its mean</li>
+</ul>
+</li>
+<li>each data point will be a certain distance away from the <strong>mean line</strong>. This is the variance of a given period</li>
+<li>variance = sum of squared differences between observed values (the points on a plot) and the population mean (the straight line), divided by total # of observations 
+<ul>
+<li>in other words, variance is a function of how far those observed values are from the <strong>mean line</strong></li>
+</ul>
+</li>
+<li>Mathematically, the <code>variance of the sample = variance of the population / sample size</code>
+<ul>
+<li>This is because as the sample size increases, sample means cluster more closely around the population mean.</li>
+</ul>
+</li>
+</ul>
+<h3 id="standard-deviation-σ">Standard Deviation (σ)<a aria-hidden="true" class="anchor-heading icon-link" href="#standard-deviation-σ"></a></h3>
+<ul>
+<li>equal to square root of <code>Variance</code></li>
+<li>SD is more useful than variance, and variance's biggest value is in letting us easily calculate SD</li>
+<li>SD is closer to the reality of what it is we are sampling.
+<ul>
+<li>ex. we have a sample of 10 stock prices and have calculated the <code>SD=3</code>. Since the units we used for the calculation was <code>$1</code>, the SD is also in terms of <code>$1</code> (ie. SD is $3) </li>
+</ul>
+</li>
+<li>unable to compare different datasets with SD alone (need CV)</li>
+</ul>
+<h3 id="covariance-cov">Covariance (cov)<a aria-hidden="true" class="anchor-heading icon-link" href="#covariance-cov"></a></h3>
+<ul>
+<li>the relationship between two variables
+<ul>
+<li>ex. stock price</li>
+</ul>
+</li>
+<li>covariance is not the same thing as correlation, but covariance is used in the formula to determine correlation</li>
+<li>a higher covariance means the stocks tend to move together. Negative covariance means they have little correlation.
+<ul>
+<li>verify this. I suspect that negative value means "negative correlation", not "no correlation". This would make 0 "not correlated at all"</li>
+</ul>
+</li>
+<li>like variance, covariance is not a standardized value
+<ul>
+<li>To get a more comparable value, we will need to convert to <code>correlation</code></li>
+</ul>
+</li>
+<li>Modern Portfolio Theorists believe that the key is to build a portfolio composed of stocks that have low covariance. 
+<ul>
+<li>It is a way to remove non-systemic risk</li>
+</ul>
+</li>
+</ul>
+<h4 id="standard-error-se">Standard error (SE)<a aria-hidden="true" class="anchor-heading icon-link" href="#standard-error-se"></a></h4>
+<ul>
+<li>def - the SD between samples of a single population
+<ul>
+<li>spec: Therefore, we are getting an idea of how well we sampled the data. The more random and representative a piece of data is, the better sample it is. Therefore, if we got another sample from the same population and there was no variance, we would know we did a perfect job of getting a sample.</li>
+</ul>
+</li>
+<li>usually "Standard Error" refers to "Standard Error of the Mean" (ie. we are measuring the "mean" statistic)</li>
+<li>standard deviation is commonly used to measure confidence in statistical conclusions
+<ul>
+<li>ex. margin of error determined by calculating the expected standard deviation</li>
+</ul>
+</li>
+</ul>
+<h5 id="use">Use<a aria-hidden="true" class="anchor-heading icon-link" href="#use"></a></h5>
+<ul>
+<li>With a statistical observation (plotted on a graph), we would have applied formulas to make observations. When we know the SE, we are able to recalculate those formulas with the added benefit of having the SE. This effectively allows us to incorporate the effect of the SE into the function that we have used to generate (secondary) data.</li>
+</ul>
+<h4 id="coefficient-of-variation-cv">Coefficient of Variation (CV)<a aria-hidden="true" class="anchor-heading icon-link" href="#coefficient-of-variation-cv"></a></h4>
+<ul>
+<li>equal to <code>SD / mean</code></li>
+<li>It simply exists to standardize the variation of a distribution.</li>
+<li>With this number, we can compare the SD of different datasets
+<ul>
+<li>ex. we are looking at a restaurant menu with prices in both USD and CAD. Ultimately, The SD of each dataset will be different, but the CV will be identical between the datasets</li>
+</ul>
+</li>
+<li>tells us the SD relative to the mean</li>
+<li><a href="https://en.wikipedia.org/wiki/Coefficient_of_variation#Examples_of_misuse">pitfalls</a></li>
+</ul>
+<h1 id="distributions">Distributions<a aria-hidden="true" class="anchor-heading icon-link" href="#distributions"></a></h1>
+<h2 id="normal-distribution">Normal Distribution<a aria-hidden="true" class="anchor-heading icon-link" href="#normal-distribution"></a></h2>
+<p>A normal distribution of data is like rolling a pair of dice. We know that over many rolls, the most common result from the dice will be seven, and the least common results will be two and twelve.</p>
+<ul>
+<li>It is a characteristic of normal distributions that 1SD from the mean will cover 68% of cases, 2SD will cover 96% of cases, and 3SD will cover 99.9% of cases.</li>
+</ul>
+<h3 id="central-limit-theorem">Central Limit Theorem<a aria-hidden="true" class="anchor-heading icon-link" href="#central-limit-theorem"></a></h3>
+<ul>
+<li>as the sample size gets larger, the sampling distribution of the mean approaches a normal distribution</li>
+<li>theorem holds especially true for samples sizes over 30</li>
+<li>ex. if we take 2 die and roll them 1000 times, we will find that the each observed sum will form in the shape of a bell curve, with 7 being in the center and 14 and 2 being in the tails. </li>
+</ul>
+<h2 id="fat-tail-curves">Fat Tail Curves<a aria-hidden="true" class="anchor-heading icon-link" href="#fat-tail-curves"></a></h2>
+<p>if we take A bell curve, we know that the extremes are predictable. we have a tough percentage probabilities that an event in the tail will come to pass. however, with fat tail, we have a situation where there are many unlikely extreme events. each event is still equally as unlikely, but there are a lot more of them, making an extreme outcome more likely than with a bell curve</p>
+<ul>
+<li>the more extreme events that are possible, the higher the probability that one of them will occur</li>
+<li>explanation: think of a the heights of a population (normal distribution). there are outliers, but there is a cap on how extreme they will be. we will not see a man 10x the height of the average. but with a curve with fat tails, like wealth, we regularly meet people who are 1000s of times wealithier than the average</li>
+<li>its a logical fallacy to compare statistics of normal distributions and fat tails </li>
+<li>ex. there are twice as many deaths from slipping and falling on your head than there are from terrorist attacks. therefore we shouldn't be concerned. the problem with this statement is that slipping and falling is normal distribution, while terrorist attacks are fat tail. put another way, deaths from falling down stairs is pretty bounded. there wont be a 10x increase all of a sudden. the same cant be guaranteed for terrorist attacks</li>
+<li>Fat tail is just a technical term for Black Swan Events</li>
+</ul>
+<h2 id="marginal-distribution">Marginal Distribution<a aria-hidden="true" class="anchor-heading icon-link" href="#marginal-distribution"></a></h2>
+<ul>
+<li>def - the probability distribution of the variables contained in a subset of data
+<pre><code>- ex. given a sample of 100 students and their relation between the amount of time they study and their resulting grades, we can plot what these numbers look like. This is the marginal distribution
+</code></pre>
+<img src="/assets/images/2021-03-27-20-48-46.png">
+<pre><code>- by adding up the values in the top row (8/200 + 2/100), we can easily determine that 5% of students get a grade of &#x3C;= 20%
+</code></pre>
+</li>
+<li>Once we have this, we can use <strong>conditional distribution</strong> to answer questions like: "what is the probability a student studied for 10 hours and received a grade of 20% or less?"</li>
+<li>ex. Imagine we are trying to determine the odds of getting hit by a car while crossing the street with a traffic light (at various colors). We will define 2 discrete random variables:
+<ol>
+<li>H={hit,not hit}</li>
+<li>L={red,yellow,green}</li>
+</ol>
+<ul>
+<li>H depends on L. In other words, your likelihood of getting hit are increased if L=green.</li>
+<li>This means that for any given pair of H and L, we must consider the bivariate (joint) probability distribution of H and L. We need to determine the probability of that particular pair of events occurring if the pedestrian ignores the state of the light.</li>
+<li>In trying to figure out the marginal probability of being hit <code>P(H=hit)</code>, what we are interested in is the probability that the pedestrian is hit, where the color of the light is unknown, and the pedestrian ignores the color of the light </li>
+<li>In this example, we need to know the duration of time each light is on (ie. the probability of any one light being on), and we need to know the probability of getting hit by a car, given the color of the light</li>
+</ul>
+</li>
+</ul>
+<h3 id="why-we-square-the-differences">Why we square the differences<a aria-hidden="true" class="anchor-heading icon-link" href="#why-we-square-the-differences"></a></h3>
+<ul>
+<li>This serves 2 main purposes
+<pre><code>1. Gives us a positive number
+	- We square in situations where we are looking for *magnitude*, and don't care about the direction of that magnitude (ex. variance)
+	- Also if we just add up the first numbers without squaring, we will net out at zero 
+2. Amplifies the effect of large differences
+</code></pre>
+<img src="/assets/images/2021-03-27-20-49-07.png"></li>
+</ul>
+<h3 id="law-of-large-numbers">Law of large numbers<a aria-hidden="true" class="anchor-heading icon-link" href="#law-of-large-numbers"></a></h3>
+<p>As individuals, people are completely unpredictable. Okay? One person making one bet... I couldn't possibly tell you what they're going to do. But the law of large numbers tells me that a million people making a million bets? That is completely predictable. Completely ordered.</p>
+<hr>
+<h2 id="pitfalls-with-statistics">Pitfalls with statistics<a aria-hidden="true" class="anchor-heading icon-link" href="#pitfalls-with-statistics"></a></h2>
+<h3 id="non-linear-correlation">Non-linear correlation<a aria-hidden="true" class="anchor-heading icon-link" href="#non-linear-correlation"></a></h3>
+<ul>
+<li>Pearson's Correlation Coefficient only considers a linear relationship. for instance, if we are measuring the relationship between vitamin intake and health, it will be correlated to an extent, then will level off. applying pearsons correlation coefficient here will show the two as being only tenuously correlated
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Anscombe&#x27;s_quartet">related</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="type-i--type-ii-errors">Type I &#x26; Type II Errors<a aria-hidden="true" class="anchor-heading icon-link" href="#type-i--type-ii-errors"></a></h3>
+<ul>
+<li>Equivalent to False Positive (<code>type I</code>) and False Negative (<code>type II</code>)</li>
+<li>These are the two kinds of errors in a binary test</li>
+<li>Intuitively, type I errors can be thought of as errors of commission, and type II errors as errors of omission
+<ul>
+<li>ex. if we are shown a blurry picture and asked to identify it, an <em>error of commission</em> would be classifying the image as a dog, when it in fact isn't (<code>type I</code>). On the other hand, classifying the image as "not a dog", when it in fact is, would be an <em>error of omission</em>.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="confidence-interval">Confidence Interval<a aria-hidden="true" class="anchor-heading icon-link" href="#confidence-interval"></a></h3>
+<p>if a confidence level is 90%, that means that in 90% of the samples taken (from a larger population), the interval estimate will contain the population parameter
+confidence levels are determined before any analysis (so we don't make the analysis fit the data).
+95% confidence level is most common</p>
+<ul>
+<li>Factors affecting the width of the confidence interval include the size of the sample, the confidence level, and the variability in the sample
+interpreting</li>
+<li>"Were this procedure to be repeated on numerous samples, the fraction of calculated confidence intervals (which would differ for each sample) that encompass the true population parameter would tend toward 90%."</li>
+<li>The confidence interval can be expressed in terms of a single sample: "There is a 90% probability that the calculated confidence interval from some future experiment encompasses the true value of the population parameter."</li>
+<li>The explanation of a confidence interval can amount to something like: "The confidence interval represents values for the population parameter for which the difference between the parameter and the observed estimate is not statistically significant at the 10% level"
+what it is <em>not</em></li>
+<li>A 95% confidence level does not mean that for a given realized interval there is a 95% probability that the population parameter lies within the interval (i.e., a 95% probability that the interval covers the population parameter). once an interval is calculated, this interval either covers the parameter value or it does not; it is no longer a matter of probability. The 95% probability relates to the reliability of the estimation procedure, not to a specific calculated interval</li>
+</ul>
+<h3 id="correlation">Correlation<a aria-hidden="true" class="anchor-heading icon-link" href="#correlation"></a></h3>
+<p>relationships bind facts together, satisfying our human desire to have a narrative explain events (rather than acknowledge that randomness occurs)</p>
+<h3 id="univariate-analysis">Univariate analysis<a aria-hidden="true" class="anchor-heading icon-link" href="#univariate-analysis"></a></h3>
+<p>univariate analysis is oversimplistic and fails to uncover the underlying reasons of why some phenomenon occurs
+ex. take the gender pay gap. It's indisputable that in the aggregate, men get paid 9% more than women. However, this oversimplification ignores important factors in pay. For instance, individuals with the personality trait known as Agreeableness tend to get paid less. Women on average tend to be more agreeable than men. Not all women are more agreeable than men, and those women on average get paid more. What if it were the case that a woman and a man have exactly the same personality, and they got paid the same? would that dispel the idea that there is a legitimate gap, or would it just further underline the individual reasons that result in that gender pay gap?</p>
+<ul>
+<li>This underpins the issue with univariate analysis: you look at a single variable and attempt to understand the picture and all the reasons why that outcome has occurred. What you have failed to realize is that there may be 20 main factors that determine pay inequality, and gender and agreeableness might only constitute 2 of them.</li>
+<li>Other underlying differences between women and men that may help explain the perceived pay gap: Women tend to be less inclined to take risks, armoire influenced by the chance of loss, or less competitive, and less status conscious.</li>
+</ul>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/notes/rU0dtUCoC7aKXM3nKbhmv">Average</a></li>
+<li><a href="/notes/bXFCYJQhuzce02keksRnj">Bell Curve</a></li>
+<li><a href="/notes/ugIWZMFABnVN8dJsmYgJu">Forecasting</a></li>
+<li><a href="/notes/SlQM4igy2NbNBNBmhYZ0w">Graphs</a></li>
+<li><a href="/notes/7RpCT3uJb4mUtXjldB6Vp">Probability</a></li>
+<li><a href="/notes/z0xR9x1E9faoBlk2k0ogo">Regression</a></li>
+<li><a href="/notes/ESke4ACtmSwkqkKhwGf8n">Sampling</a></li>
+</ol>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/notes/8TJC5FfwKtfmH4GfOZVoO">Intelligence</a></li>
+</ul>

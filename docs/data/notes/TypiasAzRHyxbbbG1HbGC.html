@@ -1,0 +1,42 @@
+<h1 id="midi">MIDI<a aria-hidden="true" class="anchor-heading icon-link" href="#midi"></a></h1>
+<h3 id="how-to-set-up-midi-instrument-track">How to set up MIDI instrument track<a aria-hidden="true" class="anchor-heading icon-link" href="#how-to-set-up-midi-instrument-track"></a></h3>
+<ol>
+<li>insert > virtual instrument on new track...</li>
+<li>confirm the routing confirmation (for instruments where you want granular control, like drums)</li>
+<li>insert > new MIDI item</li>
+<li>double click on the track</li>
+</ol>
+<h3 id="load-in-third-party-virtual-instrument-to-kontakt">Load in third party virtual instrument to Kontakt<a aria-hidden="true" class="anchor-heading icon-link" href="#load-in-third-party-virtual-instrument-to-kontakt"></a></h3>
+<ul>
+<li>In Reaper, make a new virtual instrument with Kontakt</li>
+<li>Click the file tab, and find the <code>.nki</code> file for the virtual instrument (we store these in the external hard drive in <code>SingleSamples/</code>)</li>
+<li>Add them to the quick-load for easier access, but otherwise just double click the <code>.nki</code> file.</li>
+</ul>
+<h3 id="quantization">Quantization<a aria-hidden="true" class="anchor-heading icon-link" href="#quantization"></a></h3>
+<p>Quantization range</p>
+<ul>
+<li><code>from</code> - indicates how aggressive the quantization should be for tracks far off time. The lower the %, the more "perfect" the quantization will be. As the % gets higher, the quantization algorithm cares less and less about tracks that are only slightly off time, and will focus on bringing into line the real offenders.</li>
+</ul>
+<h3 id="midi-recording-modes">MIDI recording modes<a aria-hidden="true" class="anchor-heading icon-link" href="#midi-recording-modes"></a></h3>
+<ul>
+<li><em>Record MIDI overdub</em> - adds new MIDI events without replacing the ones that were already there</li>
+<li><em>Record MIDI replace</em> - replaces all MIDI notes from the time you start recording</li>
+<li><em>Record MIDI touch-replace</em> - existing notes will be replaced by any new notes played over them. All other existing material will remain as is.</li>
+<li><em>Record MIDI latch-replace</em> - existing notes remain unchanged until you strike the first note, at which point all further notes will replaced.</li>
+<li>note: don't forget you can still use <em>Record Input</em> (the same recording mode as you do with real instruments), for example if you want to generate takes so you can comp them.</li>
+</ul>
+<hr>
+<h2 id="tips-for-playing-virtual-instruments">Tips for playing virtual instruments<a aria-hidden="true" class="anchor-heading icon-link" href="#tips-for-playing-virtual-instruments"></a></h2>
+<p>Some instrument families tend to have their note a bit delayed from the moment the note is hit. Brass for example has a noticable delay between when the player starts to blow and sound actually comes out of the instrument. Therefore quantization will not work well automatically in these cases. What you need to do is:</p>
+<ol>
+<li>record the midi part, playing by ear</li>
+<li>zoom in and gauge where the note is in relation to the official start of the bar. Does it appear before the start? Take note of its position</li>
+<li>record the full midi section on the midi keyboard</li>
+<li>quantize the notes</li>
+<li>select all notes (<code>cmd+a</code>) and adjust them to the correct position.</li>
+</ol>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/notes/948yr47c74dz23jxwwlgl5h">cook</a></li>
+</ol>
