@@ -1,0 +1,7 @@
+
+### Shunt
+A shunt is any device that allows current to continue flowing through a circuit when the filament breaks (ie. when lightbulb burns out) by creating a path of lower resistance than the original path. In incandescent holiday lights, shunts are small wires wrapped beneath the filament. Initially, they are coated with a substance that makes them an insulator. In other words, electricity cannot pass across the shunt as long as the filament exists, because the coating gives the shunt a higher resistance initially than the filament, and the electrical current avoids the shunt in order to find the path of least resistance, through the filament.
+
+### Filament
+Filaments are coils of coils, which not only maximize the surface area of the filament (thereby allowing more electricity to flow), but the fact that it is double coiled allows the metal strands to reflect off each other, providing even more brightness.
+![](/assets/images/2024-12-06-13-44-20.png)

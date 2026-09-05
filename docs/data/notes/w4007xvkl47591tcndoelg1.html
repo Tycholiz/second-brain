@@ -1,0 +1,35 @@
+<h1 id="reverb-parameters">Reverb Parameters<a aria-hidden="true" class="anchor-heading icon-link" href="#reverb-parameters"></a></h1>
+<h3 id="room-size--decay-time">Room size / Decay time<a aria-hidden="true" class="anchor-heading icon-link" href="#room-size--decay-time"></a></h3>
+<p>This is the time it takes for reflections (both early and late) to reach the listener's ears. The rate at which these reflections decay will depend both upon the size of the room in which the sound occurs, and where the listener is positioned.</p>
+<p>Some reverb plugins use a combination of 2 different parameters — <em>room size</em> and <em>decay time</em> — to achieve this effect, while some use just one or the other.</p>
+<h3 id="predelay">Predelay<a aria-hidden="true" class="anchor-heading icon-link" href="#predelay"></a></h3>
+<p>the period of time it takes for the sound to hit a wall and come back to your ear</p>
+<ul>
+<li>therefore, big rooms have longer predelay times</li>
+<li>imagine if you were in a concert hall listening to a violinist play their instrument. As she plays the instrument, the sound travels out in all directions. Some of the sound travels directly to your ears, while a short while later, more soundwaves will hit your ears, which will have been the waves that reflected off the wall first. The very short amount of time that passes between these two events is known as <em>predelay</em></li>
+<li>Increasing predelay creates the illusion of a larger space</li>
+</ul>
+<p>If we have a long predelay, we will notice that we hear the dry sound, then a period of time will pass, followed by the wet reverb sound</p>
+<h3 id="envelope">Envelope<a aria-hidden="true" class="anchor-heading icon-link" href="#envelope"></a></h3>
+<ul>
+<li>how the reverb changes its volume over time (e.g. gated reverb)</li>
+</ul>
+<h3 id="diffusion">Diffusion<a aria-hidden="true" class="anchor-heading icon-link" href="#diffusion"></a></h3>
+<p>The higher your diffusion setting is, the more dense/close together the reflections will be. Generally, higher settings can make for a more natural-sounding reverb and lower settings for a more ‘airy’ effect.</p>
+<ul>
+<li>Diffusion is closely tied to room density, and you may even see it called this instead. Less density / diffusion creates an emptier sound with more distinct reflections. More diffusion creates a “blurry” sound, giving the impression of a furnished or “dense” space as opposed to an empty room.</li>
+</ul>
+<h3 id="damping">Damping<a aria-hidden="true" class="anchor-heading icon-link" href="#damping"></a></h3>
+<p>As the sound waves bounce around all over the place, their timbre will be affected by the type of material that they hit.</p>
+<ul>
+<li>ex. reverberation off a hard surface like concrete will be clearer and more distinct, as the high-frequency sounds are reflected more, compared to the reverberation off of curtains. In the latter case, the higher frequencies will decay quicker, resulting in a warmer sound.</li>
+</ul>
+<p>Damping smooths out the high frequencies in the reflections to further shape the reverb tail. This is usually done with low-pass filters. A high damp setting means more high frequencies are cut.</p>
+<p>note: in Fabfilter Pro-R, use Decay Rate EQ to achieve this damping effect.</p>
+<h3 id="distance">Distance<a aria-hidden="true" class="anchor-heading icon-link" href="#distance"></a></h3>
+<p>how far away the source of the sound is from the supposed microphone in the room</p>
+<h3 id="early-reflections">Early reflections<a aria-hidden="true" class="anchor-heading icon-link" href="#early-reflections"></a></h3>
+<p>these are the sounds that reach our ears directly after bouncing off a surface (e.g. wall, ceiling). It is notable to realize that after these sounds bounce off one surface, they will bounce off another, and another. Gradually over time, these reflections become less distinct and merge into each other.</p>
+<h3 id="high--low-frequency-filters-or-attenuation-ie-eq">High / Low Frequency filters or attenuation (ie. EQ)<a aria-hidden="true" class="anchor-heading icon-link" href="#high--low-frequency-filters-or-attenuation-ie-eq"></a></h3>
+<p>These settings can be used to restrict the reverb to only the range of frequencies that we specify</p>
+<p>Think of this as putting an EQ <em>only</em> on the sounds that have been reflected off of the surfaces.</p>

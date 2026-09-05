@@ -1,0 +1,11 @@
+
+- Happiness results from doing things that support and reflect that image of who you really want to be.
+    - This is in contrast to a feeling or state of happiness that you might attribute to something, such as winning something, buying something etc.
+
+happiness often exists outside of the present moment. that is, we think of a memory or some thought to make us happy. but, by definition happiness can only exist in the moment. so we are not really experiencing happiness, but the remnants of it. if we focus on finding happiness, this happens. instead, if we focus on the happiness of others, we'll find that happiness will actually come right to us
+
+Happiness is simply the absence of desire. It's when you have no urge to feel differently - when you no longer want to change your state.
+- James Clear (Atomic Habits)
+
+Happiness is the space between one desire being fulfilled and a new desire forming. Suffering is the space between craving a change in state and getting it.
+- James Clear (Atomic Habits)
