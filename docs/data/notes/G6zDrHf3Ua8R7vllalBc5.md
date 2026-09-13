@@ -1,0 +1,4 @@
+
+Thinking things over is essentially listening to yourself as you explore two sides of an issue. So, in a way, you’re creating your own internal dialog, which can be difficult since you need to accurately represent both sides while also remaining objective in your conclusion.
+
+learning how to think really means *"learning how to exercise some control over how and what you think"*. It means being conscious and aware enough to choose what you pay attention to and to choose how you construct meaning from experience. Because if you cannot exercise this kind of choice in adult life, you will be totally hosed. Think of the old cliché about “the mind being an excellent servant but a terrible master.”

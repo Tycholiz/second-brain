@@ -1,0 +1,2 @@
+
+Any time you are putting a label on someone (ex. Calling someone a Hindu), take a step back and try to realize that you are conflating what your perception of a Hindu is with that person who is the target of your slur. The slur is merely a concenvience for "everything a hindu is". Because it is highly unlikely that they match that prototype, it is very harmful, among other reasons, because we immediately write that person off because they are a member of the group that we don't like.

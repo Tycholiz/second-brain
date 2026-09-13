@@ -1,0 +1,120 @@
+<h1 id="regression">Regression<a aria-hidden="true" class="anchor-heading icon-link" href="#regression"></a></h1>
+<h1 id="regression-analysis">Regression analysis<a aria-hidden="true" class="anchor-heading icon-link" href="#regression-analysis"></a></h1>
+<p>regression simply describes the relationship between 1 independent variable and 1 or more dependent variables</p>
+<ul>
+<li>The details of their relationship is explained by some function </li>
+</ul>
+<p>Linear regression is a marvelous tool, versatile, scalable, and as easy to execute as clicking a button on your spreadsheet. Whenever you want to understand which variables drive which other variables, and in which direction, it’s the first thing you reach for. And it works on any data set at all.</p>
+<ul>
+<li>But, like a table saw, if you use it without paying careful attention to what you’re doing, the results can be gruesome.</li>
+</ul>
+<p>Regression analysis is good if you want to visualize the relationship between a dependent variable and 1+ independent variables</p>
+<p>Y hat (written <code>y</code>̂ ) is the predicted value of y (the dependent variable) in a regression equation. </p>
+<ul>
+<li>It can also be considered to be the average value of the response variable.</li>
+</ul>
+<h3 id="example-stock-price-with-sp500-and-unemployment-rate">Example: Stock price with S&#x26;P500 and Unemployment rate<a aria-hidden="true" class="anchor-heading icon-link" href="#example-stock-price-with-sp500-and-unemployment-rate"></a></h3>
+<p>We could use Regression analysis to anaylze the price of a stock (<em>DV</em>), and put it in the context of the S&#x26;P500 AND the unemployment rate (<em>IV</em>)</p>
+<ul>
+<li>
+<p>we can use these 3 sets of numbers as inputs into a regression function. The return value of that function is a formula that describes the relationship between that DV and IVs that you entered into the function</p>
+</li>
+<li>
+<p>The formula is the equation for the Line of Best Fit</p>
+<ul>
+<li><code>y = c + b1(x1) + b2(x2)</code>
+<ul>
+<li><code>y</code> = DV</li>
+<li><code>c</code> = constant</li>
+<li><code>x</code> = IV</li>
+<li><code>b</code> = regression coefficient
+<ul>
+<li>The coefficient represents the degree of change in <code>y</code> for each additional unit in that independent variable (<code>x</code>).
+<ul>
+<li>if S&#x26;P500 <code>coefficient = 1</code>, then $1 rise in S&#x26;P500 price can explain $1 rise in the stock.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Drawing from the above example, the stock price would be <code>y</code>, S&#x26;P500 and UE rate would each be an <code>x</code></p>
+</li>
+</ul>
+<h3 id="errors-and-residuals">Errors and Residuals<a aria-hidden="true" class="anchor-heading icon-link" href="#errors-and-residuals"></a></h3>
+<ul>
+<li><em>Error</em> - error is the difference between an observation and the population mean (ie. how it actually is in real life)
+<ul>
+<li>since actually measuring population is very difficult, this number is more theoretical (ie. it is unobservable)</li>
+</ul>
+</li>
+<li><em>Residual</em> - residual is the difference between an observation and the sample mean
+<ul>
+<li>making this number something we can actually figure out easily</li>
+<li>therefore the residual is an observed estimate of the error</li>
+</ul>
+</li>
+<li>One can standardize statistical errors (especially of a normal distribution) in a z-score (or "standard score"), and standardize residuals in a t-statistic, </li>
+<li>each point on the graph has a value that equals the distance between it and the line. </li>
+<li>The line may be derived differently, and it really depends on what we are interesting in observing
+<ul>
+<li>ex. we plotted it based on mean</li>
+</ul>
+</li>
+<li>Error/Residual: the amount by which a single observation differs from its expected value (the LoBF)</li>
+<li>If we are using a population mean (ex. all stocks in stock market), then this distance is called the <code>Error</code>
+<ul>
+<li>statistical errors are independent, and their sum within the random sample are never zero</li>
+</ul>
+</li>
+<li>If we are using a sample mean (ex. all S&#x26;P500 stocks), then this distance is called the <code>Residual</code>
+<pre><code>- the sum of the residuals within a random sample is necessarily zero
+	- Therefore, the residuals are not independent.
+</code></pre>
+<img src="/assets/images/2021-03-27-20-51-54.png"></li>
+</ul>
+<h3 id="line-of-best-fit-lobf">Line of best fit (LoBF)<a aria-hidden="true" class="anchor-heading icon-link" href="#line-of-best-fit-lobf"></a></h3>
+<ul>
+<li>def - refers to an imaginary line that we draw through the points of data on a scatter plot. 
+<ul>
+<li>The closer the points on a scatter plot are to the LoBF, the more reliable the LoBF is for analysis</li>
+</ul>
+</li>
+</ul>
+<h4 id="least-squares-method">Least Squares Method<a aria-hidden="true" class="anchor-heading icon-link" href="#least-squares-method"></a></h4>
+<ul>
+<li>used to determine the LoBF</li>
+<li>the method aims to create a straight line that minimizes the sum of the squares of the errors</li>
+</ul>
+<h3 id="regression-to-the-mean-rttm">Regression to the Mean (RttM)<a aria-hidden="true" class="anchor-heading icon-link" href="#regression-to-the-mean-rttm"></a></h3>
+<ul>
+<li>The phenomenon arising when an extreme sample has been drawn. When this occurs, future samples will be closer to the mean on further measurements</li>
+<li>ex. A QB throws 400 yards in one game. There is high statistical pressure on the QB to perform closer to the mean in his following game due to RttM 
+<ul>
+<li>This is because his breakout game was based upon probability, and since likelihood is more based around an average, odds are that the next game will be relatively toned down.</li>
+</ul>
+</li>
+</ul>
+<h3 id="r-squared">R-Squared<a aria-hidden="true" class="anchor-heading icon-link" href="#r-squared"></a></h3>
+<ul>
+<li>purpose is to tell us how much of the variance of the dependent variable can be explained by the variance of the independent variable </li>
+<li>"out of the whole variance of a dependent variable, what portion is able to be explained by the independent variable?" 
+<ul>
+<li>therefore, if R-Squared = 0.5, this means that the model's inputs can explain about 50% of the variation</li>
+</ul>
+</li>
+<li>In investing, R-Squared can tell us what percentage of a security's movements can be explained by movements in the whole market</li>
+<li>ex. We perform a regression analysis, setting our independent variable as GDP and dependent variable as our company's revenue. We find that R-Squared = 0.1, meaning that 10% of our revenue can be explained by movements in the GDP </li>
+<li>R-Squared only works as intended in a simple linear regression model with one explanatory variable. If we want to include multiple dependent variables, we must use adjusted R-squared.</li>
+<li>R-Squared is used closely with Beta. While R-Squared measures how closely a dependent variable is correlated to an independent variable, Beta measures how large those variations are </li>
+<li>According to Nassim Nicholas Taleb, R-Squared only exists in theoretical models, since it doesn't take into account unpredictable events</li>
+</ul>
+<h3 id="ordinary-least-squares-ols">Ordinary Least Squares (OLS)<a aria-hidden="true" class="anchor-heading icon-link" href="#ordinary-least-squares-ols"></a></h3>
+<ul>
+<li>def - a tool to estimate unknown parameters in a linear regression model</li>
+</ul>
+<h1 id="linear-regression">Linear Regression<a aria-hidden="true" class="anchor-heading icon-link" href="#linear-regression"></a></h1>
+<p>Think of it like this. On a scatter plot, imagine all possible straight lines. For each line, calculate how closely it fits the dots, by measuring the distance of each dot from the line, and adding up all the distances after having squared them. Of all possible straight lines, the one that minimizes the sum of the squared dot-to-line distances, summed over all the dots, is the fitted regression line. It shows us the trend, without our eyes being distracted by all the mess of the individual points.</p>
