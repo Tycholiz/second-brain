@@ -1,0 +1,79 @@
+<h1 id="techniques">Techniques<a aria-hidden="true" class="anchor-heading icon-link" href="#techniques"></a></h1>
+<h3 id="multi-stage-compression-aka-serial-compression">Multi-stage compression (a.k.a serial compression)<a aria-hidden="true" class="anchor-heading icon-link" href="#multi-stage-compression-aka-serial-compression"></a></h3>
+<p>Multi-stage compression involves using multiple compressors each applying a few dB of gain reduction.</p>
+<ul>
+<li>ex. when compressing vocals, we may apply the first compressor (a fast compressor) to tame the sharpest peaks in the dynamic range, then we might apply another compressor (a slow compressor) to "glue" everything together.</li>
+</ul>
+<p>The result is that we retain the same amount of control, but because each compressor isn't working as hard, we get a much more natural sound.</p>
+<ul>
+<li>therefore, this technique is used to preserve the natural tone that our sound has, while still getting the compression we're after.</li>
+</ul>
+<p>Different attack and release times are a good idea</p>
+<ul>
+<li>use fast attack/release times on first compressor to control transients</li>
+<li>use medium attack/release times on 2nd/3rd to shape the tone</li>
+</ul>
+<p><a href="https://www.musicianonamission.com/vocal-compression-how-to-compress-vocals/">How to</a></p>
+<h3 id="parallel-compression">Parallel compression<a aria-hidden="true" class="anchor-heading icon-link" href="#parallel-compression"></a></h3>
+<p>Parallel compression is blending an uncompressed sound with a heavily compressed sound</p>
+<ul>
+<li>we must determine the appropriate level of blending to find the desired balance between control and naturalness.</li>
+</ul>
+<p>Parallel compression pushes a track forward and makes it sound bigger or more aggressive</p>
+<p>The benefit of using parallel compression is that it allows the engineer to achieve a more even and consistent sound while still preserving the natural dynamics and character of the original signal. By blending the compressed signal with the original signal, the engineer can achieve the desired level of compression without completely squashing the dynamics of the sound.</p>
+<p>Sounds great on vocals that just aren't sitting well in a mix and are getting buried.</p>
+<ul>
+<li>here, when the uncompressed track drops below a threshold, the compressed track comes up and makes the track sound fatter.</li>
+</ul>
+<p>In your DAW, make a copy of the track you want to parallel compress and put a compressor on it. You’ll want to hit it hard, so exaggerate your compressor’s settings even to the point in which it doesn’t sound pleasant and starts to distort.</p>
+<p>Make sure the original track is at the desired level, and bring up the compressed copy’s fader until it sits just beneath the original. Parallel compression gives the impression of control without sounding completely squashed. It’s a fantastic way to compress vocals, but works with almost any individual instrument, too!</p>
+<h3 id="sidechain-compression">Sidechain compression<a aria-hidden="true" class="anchor-heading icon-link" href="#sidechain-compression"></a></h3>
+<p>Sidechain compression is a type of compression where the effect level on one instrument is controlled by the volume level of another instrument. </p>
+<p>A typical use-case is on tracks that compete in the same frequency space.</p>
+<ul>
+<li>ex. make the compression level on a bass guitar controlled by the output volume of the kick drum. The idea is that when the kick drum sounds, the bass guitar gets more compressed so that it can stay audible in the mix.</li>
+<li>ex. imagine you had a bass synth sound along with a kick drum every measure. In order to make the kick drum more present and punchy, we duck the sound of the bass synth every time the kick drum is hit.</li>
+</ul>
+<p>Because this affects how 2 or more similar-frequency sounds sit together in a mix, this is something we want to do before EQ.</p>
+<ul>
+<li>in other words, this allows us to give each instrument its space without messing with the frequencies.</li>
+</ul>
+<p>The general way we achieve sidechain compression is by </p>
+<ul>
+<li>opening up additional channels on the track we want to compress</li>
+<li>sending the signal from our trigger track (ie. the track that will trigger the compression to occur) into those newly opened channels</li>
+<li>setting the compressor plugin to apply only in response to those signals </li>
+</ul>
+<p>Side-chain compression has prominent usage in dance music</p>
+<h4 id="example-reaper-usage">Example: Reaper usage<a aria-hidden="true" class="anchor-heading icon-link" href="#example-reaper-usage"></a></h4>
+<p>say you want your bass track to compress (or duck) a little to let your kick drum occupy the primary space of that frequency in those moments...</p>
+<p>what you would do is go to your bass track and click the i/o button (input output). within that you will see a receive section, add your kick drum. now go slightly below that and change the output of the from 1/2 to 3/4 (this will be an aux output you will recognize with your compresson in the next step)</p>
+<p>now go to your bass effects and add a reacomp (reaper compression) to the front of your chain. inside your compressor effects you will see a drop menu for the aux 3/4 (this is where your kick was sent. now solo your kick and bass tracks (just to audition for now), make sure to set your ratio, drop your threshold to a desired db, and watch the kick duck the signal down when it plays.</p>
+<p>basically the bass track now contains both the bass signal and the kick drum signal but the kick signal (on the bass track) is routed to outputs that aren't being sent to the master, which triggers the compressor</p>
+<h4 id="ducking">Ducking<a aria-hidden="true" class="anchor-heading icon-link" href="#ducking"></a></h4>
+<p>Ducking is an effect commonly used in dubbed foreign films, where an actor speaking in a foreign language will get quieter once the dubbed voice comes in. The original actor's voice is linked to the overdubbed voice and will decrease in volume when the overdubbed voice reaches a certain volume level.</p>
+<p>Another example is for use by DJ, whereby when he starts speaking, the music decreases in volume.</p>
+<p>Ducking is an effect that is achieved with a compressor's sidechain input.</p>
+<p>Ducking can also be used to achieve the well-known and very popular 'pumping' effect</p>
+<h4 id="de-essing">De-essing<a aria-hidden="true" class="anchor-heading icon-link" href="#de-essing"></a></h4>
+<p>De-essing is a technique achieved through side-chain compression</p>
+<h3 id="multiband-compression">Multiband compression<a aria-hidden="true" class="anchor-heading icon-link" href="#multiband-compression"></a></h3>
+<p>A multiband compressor is a compressor that works on a specific set of frequency ranges, instead of the whole track.</p>
+<p>You can actually use a multiband compressor in place of an EQ, and in some cases they are more effective than EQs</p>
+<ul>
+<li>in fact, in cases where you want to radically alter a sound, a multiband compressor may be the way to go.</li>
+</ul>
+<p>note: Multiband compression must be used with care as it can easily destroy a mix.</p>
+<ul>
+<li>it's been said not to use multiband compression if you are getting your music mastered by someone else.</li>
+</ul>
+<p>Examples:</p>
+<ul>
+<li>ReaXComp</li>
+</ul>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/notes/noH1GXwFDSoD6OQEEtqJ5">Cook</a></li>
+<li><a href="/notes/ubfvyeobxqknmortt806wye">Vocals</a></li>
+</ul>
