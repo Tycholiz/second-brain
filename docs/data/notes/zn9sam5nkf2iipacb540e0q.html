@@ -1,0 +1,23 @@
+<h1 id="gate">Gate<a aria-hidden="true" class="anchor-heading icon-link" href="#gate"></a></h1>
+<p>Noise gates often implement <em>hysteresis</em> </p>
+<ul>
+<li>that is, they have two thresholds: one to open the gate and another, set a few dB below, to close the gate.</li>
+</ul>
+<p>When using a gate, you have to be careful that you aren't gating other sounds that are desirable</p>
+<ul>
+<li>ex. imagine we want to eliminate some breathing noises in our recording, so we naturally add a gate. Consider that breaths are likely to occur after a period of not singing (ex. between verses). Therefore, to ensure we don't trim the start of the vocal part, we want the gate to open quickly (short attack time). At the same time, we don't want to attenuate fading vocals, so we need to make sure the gate is a bit more lax with re-enabling the gate after a signal volume has dropped below the threshold (long <em>hold</em> time+slow release time)</li>
+</ul>
+<p>If we do this and don't adjust the release to be a bit slower, then we will find that a shorter release will cause vocal fades to attenuate unexpectedly, since they will not meet the threshold of the gate.</p>
+<h3 id="ducking-mode">Ducking mode<a aria-hidden="true" class="anchor-heading icon-link" href="#ducking-mode"></a></h3>
+<p>Some Gates have a ducking mode that when enabled, cause the gate to open <em>only</em> when the volume drops below a certain threshold.</p>
+<p>Ducking is similar to <a href="/notes/enqduojp3hdl58v8o73g2l8#side-chain-compression1">side-chain compression</a>, but can sound quite different because it's processed as "inverted" gating instead of compression</p>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/notes/675gl0yvxi52kuvrouvm92t">Param</a></li>
+</ol>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/notes/ubfvyeobxqknmortt806wye">Vocals</a></li>
+</ul>

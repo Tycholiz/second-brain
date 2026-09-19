@@ -1,0 +1,54 @@
+<h1 id="anki">Anki<a aria-hidden="true" class="anchor-heading icon-link" href="#anki"></a></h1>
+<p>A hierarchy of decks can be created by separating the deck names with <code>::</code></p>
+<ul>
+<li>ex. name a new deck <code>Languages::French::Verbs</code></li>
+</ul>
+<h2 id="terminology">Terminology<a aria-hidden="true" class="anchor-heading icon-link" href="#terminology"></a></h2>
+<h3 id="notescardsfields">Notes/Cards/Fields<a aria-hidden="true" class="anchor-heading icon-link" href="#notescardsfields"></a></h3>
+<p>A <em>note</em> is a set of information from which <em>cards</em> can be made</p>
+<p>Imagine we had the following 3 <em>fields</em>:</p>
+<pre><code>Bonjour
+Hello
+  Page #12
+</code></pre>
+<ul>
+<li>these 3 fields together combine to make up a <em>note</em>. Order of the fields does not matter, because we cannot review a <em>note</em>. Notes only exist so that we can create cards from them.</li>
+</ul>
+<p>From this we can make a single card (ie. Basic), we can make 2 cards (ie. Basic and Reversed) etc.</p>
+<p>Imagine we wanted 2 cards:</p>
+<pre><code>Q: Bonjour
+A: Hello
+   Page #12
+</code></pre>
+<p>And:</p>
+<pre><code>Q: Hello
+A: Bonjour
+   Page #12
+</code></pre>
+<p>To do this, we just need to make 1 note with 3 fields</p>
+<h3 id="card-type">Card Type<a aria-hidden="true" class="anchor-heading icon-link" href="#card-type"></a></h3>
+<p>For Anki to create cards based on our notes, we need to give it a <em>card type</em> (ie. a blueprint), which tells it which fields to display on the front and back of each card.</p>
+<p>Each type of note can have one or more card types; when you add a note, Anki will create one card for each card type.</p>
+<p>Once a card type has been created, every time you add a new note, a card will be created based on that card type. </p>
+<ul>
+<li>Card types make it easy to keep the formatting of your cards consistent and can greatly reduce the amount of effort involved in adding information. </li>
+<li>They also mean Anki can ensure related cards don’t appear too close to each other</li>
+</ul>
+<p>To add and edit card types, click the “Cards…​” button while adding or editing notes.</p>
+<p>Each card type has two 'templates', one for the question and one for the answer.</p>
+<p>For example, if we wanted to make a card:</p>
+<pre><code>Q: Bonjour
+A: Hello
+   Page #12
+</code></pre>
+<p>We could set the template to:</p>
+<pre><code>Q: {{French}}
+A: {{English}}&#x3C;br>
+   Page #{{Page}}
+</code></pre>
+<p>Then we could generate 2 cards from 2 card types: <code>English-French</code> and <code>French-English</code></p>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/notes/nbaj69vmnpl86a2ebecw11j">Cook</a></li>
+</ol>
