@@ -1,0 +1,200 @@
+<h1 id="engineering">Engineering<a aria-hidden="true" class="anchor-heading icon-link" href="#engineering"></a></h1>
+<h1 id="parts-of-a-daw">Parts of a DAW<a aria-hidden="true" class="anchor-heading icon-link" href="#parts-of-a-daw"></a></h1>
+<h2 id="types-of-tracks">Types of Tracks<a aria-hidden="true" class="anchor-heading icon-link" href="#types-of-tracks"></a></h2>
+<h3 id="bus">Bus<a aria-hidden="true" class="anchor-heading icon-link" href="#bus"></a></h3>
+<ul>
+<li>By default all sound gets routed to the master bus. What if you added a distortion plugin onto the master track? Every audio file would gain that distortion. What if we wanted to only apply distortion to the 3 electric guitars? We could output the 3 guitar tracks to a bus track, then apply the distortion plugin on that bus track. Then that bus track would output it's combined audio to the master track, mixing it with the rest of the tracks and buses. </li>
+<li>This is useful for things like distortion/EQ/compression</li>
+<li>In actuality, the bus is simply the connection between origin and destination. You'd add effects to the channel that you assigned the bus to, rather than to the bus itself.</li>
+<li>buses are simply the connections between origins and destinations in a mixer</li>
+<li>Imagine you have a string section, then you set the levels so they sound good between them, and now you mix them as a chunk.</li>
+<li>In Reaper, a folder === bus</li>
+</ul>
+<h3 id="send">Send<a aria-hidden="true" class="anchor-heading icon-link" href="#send"></a></h3>
+<ul>
+<li>Imagine we wanted to separate out the distorted part of the sound from the original sound?</li>
+<li>ex. We record a snare drum and add reverb to it. What if we wanted to mix the original snare sound and the reverb differently? If we sent the snare to a bus and mixed the bus, we would have effectively glued those two parts of the sound together, rendering us unable to mix them separately.</li>
+<li>A Send Track is similar to a bus track, with the difference being: the original snare sound is sent directly to the master, thereby bypassing the bus (and the effects it applies).
+<ul>
+<li>In reality, the original snare sound is sent along with the reverb to the send. In essence there are 2 copies of the snare.</li>
+<li>A send is a split in the sound signal, so that it gets sent to 2 different places.</li>
+</ul>
+</li>
+</ul>
+<h4 id="types">Types:<a aria-hidden="true" class="anchor-heading icon-link" href="#types"></a></h4>
+<ul>
+<li>each send is defined as one of 3 types:
+<ul>
+<li>Post-fader (post-pan)
+<ul>
+<li>default</li>
+</ul>
+</li>
+<li>Pre-fader (post-FX)</li>
+<li>Pre-FX</li>
+</ul>
+</li>
+<li>Different send types send the audio at different stages in the signal flow.
+<pre><code>- ex. the volume of a send that is Post-Fader (Post-Pan) will be affected by
+</code></pre>
+changes made to the source track's volume fader. A <code>send</code> that is Pre-Fader (Post FX) will not. An audio <code>send</code> that is Pre-FX will be affected by the source track’s volume fader but not by any FX in the source track's FX chain</li>
+</ul>
+<h3 id="fx-track">FX Track<a aria-hidden="true" class="anchor-heading icon-link" href="#fx-track"></a></h3>
+<ul>
+<li>an FX track outputs directly to the master, but it will take in inputs</li>
+<li>For instance, say we have a delay and reverb combination that we want to put into an FX track. Anything that routes to this FX track will now pick up that delay and reverb before going on to the master.</li>
+</ul>
+<h3 id="vca-voltage-control-amplifier">VCA (Voltage control amplifier)<a aria-hidden="true" class="anchor-heading icon-link" href="#vca-voltage-control-amplifier"></a></h3>
+<ul>
+<li>a VCA track will have a volume fader, which is used as a controller for the volume levels on other tracks.</li>
+<li>ex. We assign guitar 1, 2, 3 to VCA1. So now when we reduce volume of VCA1, guitar 1, 2, 3 are also reduced in volume.</li>
+<li>VCA does not actually route the audio, as a bus does.</li>
+</ul>
+<h4 id="usage">Usage<a aria-hidden="true" class="anchor-heading icon-link" href="#usage"></a></h4>
+<ol>
+<li>View > Grouping matrix</li>
+<li>Select <code>show group details</code></li>
+<li>set your VCA track (named <code>VCA1</code> here) as MASTER (M)</li>
+<li>set your slave tracks (S), causing their volume to be adjusted any time <code>VCA1</code> is adjusted.</li>
+</ol>
+<p><img src="/assets/images/2021-03-27-19-35-55.png"></p>
+<h2 id="routing-io">Routing (I/O)<a aria-hidden="true" class="anchor-heading icon-link" href="#routing-io"></a></h2>
+<ul>
+<li>Sound files are read from the hard drive into Reaper, then will run through the tracks, and then be routed to the master.</li>
+<li>On each track's route button, there is a master send checkbox, meaning if selected, that track gets routed to the master (which is the default behaviour)
+<pre><code>- The master track itself will route to the hardware (audio interface)
+</code></pre>
+<img src="/assets/images/2021-03-27-19-36-06.png"></li>
+</ul>
+<h2 id="mix-automation">Mix Automation<a aria-hidden="true" class="anchor-heading icon-link" href="#mix-automation"></a></h2>
+<ul>
+<li>The most popular use of automation in mixing is to adjust the volume of a track. For example, it allows you to bring an instrument to the forefront for a moment and fade it back out when the lead vocal comes back in
+<ul>
+<li>Think Band on the Run, during the 3rd part when acoustic is front and center at first, but lowers in volume as the other instruments enter. </li>
+</ul>
+</li>
+<li>Examples:
+<ul>
+<li>Automate an effect bypass on and off in certain sections of your song. This could be super useful if you want to create a delay or a long reverb tail only on a couple specific words to help emphasize them.</li>
+<li>Automate individual plugin parameters. This can be particularly handy when creating EQ filter sweeps, or when you want to alter the delay feedback amount in a section of your song.</li>
+<li>Automate a VCA or a bus to control the level of a group of instruments at once.</li>
+<li>Automate the master fader to create a fade out for the end of your song. </li>
+</ul>
+</li>
+<li>Use automation any time you want to adjust a parameter on any track or in any plug-in in your song.</li>
+</ul>
+<h3 id="automation-modes">Automation modes<a aria-hidden="true" class="anchor-heading icon-link" href="#automation-modes"></a></h3>
+<ul>
+<li>Automation modes determine how automation is treated on a particular track.</li>
+<li>Automation can either be read or written
+Types:</li>
+<li>Read - When we are playing the track, the DAW plays back all the automation on
+the track. This is the most basic, and considered to be default.
+<ul>
+<li>if we've set up automation to automatically adjust the volume at a certain
+part of the song, the volume fader will move automatically.</li>
+<li>if we move any knobs, it will not write anything to the track. It will
+merely be temporary.</li>
+</ul>
+</li>
+<li>Touch - When we are playing the track, the DAW plays back all the automation on
+the track. The difference is, that if we move the knob while it's playing
+back, we will adjust the automation on the fly.
+<ul>
+<li>When we release the knob, the changes stop.</li>
+<li>This mode is useful if you only want to touch up (thus the name Touch) certain portions of your automation without affecting the rest.</li>
+</ul>
+</li>
+<li>Latch - like <code>Touch</code>, but when we release the knob, it will stay where it is.</li>
+</ul>
+<p><img src="/assets/images/2021-03-27-19-36-23.png"></p>
+<h1 id="comping">Comping<a aria-hidden="true" class="anchor-heading icon-link" href="#comping"></a></h1>
+<ul>
+<li>def - taking multiple tracks of the same part of a song, and slicing in the
+best parts of each.</li>
+</ul>
+<h2 id="slice-and-dice">Slice and Dice<a aria-hidden="true" class="anchor-heading icon-link" href="#slice-and-dice"></a></h2>
+<ul>
+<li>When we have recorded the same thing multiple times, we have our lanes as a result. Our strategy is to split each take into phases, which roughly correspond to distinct sound waves.</li>
+<li>Doing this, we can choose the best pieces, not only in raw performance, but also in the context of the other best guitar parts.
+<ul>
+<li>first we choose the best 1st phrase, then the best 2nd phrase (while still playing back the 1st), then the best 3rd phrase (while still playing back the 1st and 2nd), and so on.</li>
+</ul>
+</li>
+</ul>
+<p><img src="/assets/images/2021-03-27-19-36-35.png"></p>
+<ul>
+<li>Each combination of these phrases is called a comp.</li>
+</ul>
+<h2 id="comping-tips">Comping tips<a aria-hidden="true" class="anchor-heading icon-link" href="#comping-tips"></a></h2>
+<ul>
+<li>It's easier to comp a part that has been worked on in sections, because the singer's vocal tone will be more consistent between the takes</li>
+</ul>
+<h1 id="features">Features<a aria-hidden="true" class="anchor-heading icon-link" href="#features"></a></h1>
+<ul>
+<li>Solo in Front - same as solo, except it just lowers the volume of everything else, instead of muting it
+<ul>
+<li>found in <code>actions</code></li>
+</ul>
+</li>
+</ul>
+<h1 id="tips">Tips<a aria-hidden="true" class="anchor-heading icon-link" href="#tips"></a></h1>
+<ul>
+<li>apply soft compression to glue everything together</li>
+</ul>
+<h1 id="gain-vs-volume">Gain vs Volume<a aria-hidden="true" class="anchor-heading icon-link" href="#gain-vs-volume"></a></h1>
+<ul>
+<li>volume is the master level of output that a track will give out. It is the raw sound that comes out. In other words, it is after processing.
+<ul>
+<li>It’s the volume level being sent into your plugins, preamps, and amplifiers.</li>
+</ul>
+</li>
+<li>gain is the volume level of a signal before processing.
+<ul>
+<li>How loud something is AFTER processing doesn’t change the tone of the sound. But how loud something is BEFORE processing definitely will.</li>
+</ul>
+</li>
+<li>changing the volume knob will change perceived loudness, and that's it. changing the gain will cause a literal difference in the sound.</li>
+</ul>
+<h1 id="resources">Resources<a aria-hidden="true" class="anchor-heading icon-link" href="#resources"></a></h1>
+<ul>
+<li><a href="https://www.flstudiomusic.com/2017/03/38-best-free-kontakt-libraries.html">free kontakt libraries</a></li>
+</ul>
+<h1 id="ue-resources">UE Resources<a aria-hidden="true" class="anchor-heading icon-link" href="#ue-resources"></a></h1>
+<ul>
+<li><a href="https://www.izotope.com/en/learn.html">Blog posts for understanding mixing concepts</a></li>
+<li><a href="https://heroic.academy/essential-guide-becoming-music-mixing-professional-part-2-signal-flow-plugins/">https://heroic.academy/essential-guide-becoming-music-mixing-professional-part-2-signal-flow-plugins/</a></li>
+<li><a href="https://www.soundonsound.com/techniques/vocal-comping">How to comp</a></li>
+</ul>
+<h1 id="questions">Questions<a aria-hidden="true" class="anchor-heading icon-link" href="#questions"></a></h1>
+<ul>
+<li>what is a channel?
+<ul>
+<li>a channel is an audio signal, while a track is the place where that signal can be read/written.</li>
+<li>channels appear on the mixer, while tracks appear on the "canvas"</li>
+<li>channel represents the instantaneous path for a signal</li>
+<li>The track is like the read/write part of the program, while the channel is the route that the signal takes, while it is on its way to being written into the track.</li>
+</ul>
+</li>
+<li>When you mix a track, what is the high level? Are we getting raw sound from the microphone, then taking that output, passing it through a channel which gets put on a track, which gets routed to another channel on a mixer? </li>
+<li>how do sends and receives work in the context of midi? is a send/receive for sending or receiving midi signals? for instance, can I have a midi track that sends to a reverb bus (ie that bus receives it) ?</li>
+<li>Why use a VCA track when you can just use folders (buses) to control the overall volume?</li>
+<li>Can we use channels in midi in order to apply "effects" to a certain group of notes?
+<ul>
+<li>I want to somehow apply effects once and have it affect all notes of a "type", like the softer snare hits in the Hagia Sofia intro.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/notes/9p8bcbqbe851or4ul00cylo">DAW (Digital Audio Workstation)</a></li>
+<li><a href="/notes/6wyxdh8uw1sxp3pg0wv6ar2">Imaging</a></li>
+<li><a href="/notes/jedi1gm4g602zn0ynx4ngjq">Mastering</a></li>
+<li><a href="/notes/xDrtihVGbEyfiWZd2rdq8">Midi</a></li>
+<li><a href="/notes/v89y5ry5pbgeazv7v5jr4me">Mixing</a></li>
+<li><a href="/notes/v024fy7zj6c5jko7lk83t1h">Recording</a></li>
+<li><a href="/notes/0lszk6y03c7m7mxwtno7c3z">Reference Tracks</a></li>
+<li><a href="/notes/l5m4s6mtae8ejhbv4s27j26">Routing</a></li>
+<li><a href="/notes/2uhg8glix3ndlltm0i3o3bl">Vst</a></li>
+</ol>
