@@ -1,0 +1,5 @@
+
+It's not that a computer is stupid for not being able to recognize the letter `b` written in 100 different ways. It's that our brains are very impressive for being able to do it.
+- we have millions of years of [[science.bio.evolution]] in our favor to have learned seemingly simple things like pick up a glass of water, recognize letters, walk etc.
+
+When we want to understand why a modern AI system did something, or how it would behave in some future scenario we can’t perfectly simulate, we can’t simply ask the programmers to talk us through various lines of code and explain how they work. Instead, we are forced to do something like psychology on them: we look at their behavior in the range of cases observed so far, and theorize about what internal cognitive structures (beliefs? goals? personality traits? etc.) might exist, and use those theories to predict behavior in future scenarios.

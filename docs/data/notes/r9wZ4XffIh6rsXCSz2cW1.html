@@ -1,0 +1,36 @@
+<h1 id="audio-interface">Audio Interface<a aria-hidden="true" class="anchor-heading icon-link" href="#audio-interface"></a></h1>
+<p>Audio interfaces convert microphone and instrument signals into a format your computer and software recognize.</p>
+<ul>
+<li>also routes audio from your computer out to your headphones and studio monitors</li>
+</ul>
+<p>Audio interfaces are closely related to sound cards</p>
+<ul>
+<li>a sound card is optimized for audio playback</li>
+<li>an audio interface is optimized for low-latency analog-to-digital conversion.</li>
+</ul>
+<h3 id="how-audio-goes-from-analog-to-digial">How audio goes from analog to digial<a aria-hidden="true" class="anchor-heading icon-link" href="#how-audio-goes-from-analog-to-digial"></a></h3>
+<p>Digital audio is about taking an analog sound wave and extracting certain characteristics from it— its frequency, its amplitude... We take these and we convert it into data so that it can be read by a computer.</p>
+<p>The process by which a sound wave is converted into data is carried out by taking a series of snapshot measurements, or samples.</p>
+<ul>
+<li>each snapshot is taken at an even interval of time, and snapshots are taken 1000's of times per second. We measure the amplitude of each interval of time, and output the samples that represent the original sound wave.</li>
+</ul>
+<p>Because so many snapshots are taken, we are able to realistically reconstruct the analog wave.</p>
+<ul>
+<li>The principles of <a href="/notes/TBATXjmhVgnvCDmR1mVuD">Calculus</a> apply here, in that that we can get infinitely close, but not 100% of the way there.</li>
+</ul>
+<p><img src="/assets/images/2021-12-16-19-58-49.png"></p>
+<h3 id="sample-rate">Sample Rate<a aria-hidden="true" class="anchor-heading icon-link" href="#sample-rate"></a></h3>
+<p>The <em>Sample Rate</em> measures the interval of time at which these samples are taken.</p>
+<ul>
+<li>measured in kilohertz</li>
+</ul>
+<p>The most common audio sample rate you’ll see is 44.1 kHz, or 44,100 samples per second. This is the standard for most consumer audio, used for formats like CDs.</p>
+<ul>
+<li>this number is derived from the fact that humans can hear frequencies between 20 Hz and 20 kHz.</li>
+</ul>
+<p>If the sample rate is too low, then latency goes up accordingly.</p>
+<h1 id="e-resources">E Resources<a aria-hidden="true" class="anchor-heading icon-link" href="#e-resources"></a></h1>
+<ul>
+<li><a href="https://www.izotope.com/en/learn/digital-audio-basics-sample-rate-and-bit-depth.html">https://www.izotope.com/en/learn/digital-audio-basics-sample-rate-and-bit-depth.html</a></li>
+<li><a href="https://hub.yamaha.com/proaudio/recording/what-is-an-audio-interface/">https://hub.yamaha.com/proaudio/recording/what-is-an-audio-interface/</a></li>
+</ul>
