@@ -1,0 +1,21 @@
+
+### Numbing
+It's not what you do; it's why you do it.
+- ex. Watching a show on Netflix is pleasure and there is nothing wrong with it. Flipping through channels for an hour is numbing and unhealthy. Think about why you're doing what you're doing. If it is to avoid doing something or to avoid feeling something, that should be a red flag
+
+Something as simple as jotting down a couple of reasons why we are doing something makes it much simpler to start. Motivation is triggered by making choices that demonstrate (to ourselves) that we are in control—and that we are moving toward goals that are meaningful.
+
+When our commitment is wavering, the best way to stay on track is to consider the progress we’ve already made.
+
+To feel more inspiration, we must focus on what we get from what we are seeking, rather than the thing itself
+- ex. We aren't inspired by money. Rather, we are inspired by what the money can get us. It is when we are more conscious of what the money can get us that we feel more inspiration.  
+
+Before doing something, always ask yourself: does it help me accomplish and move me toward my long-term goals?
+- Even if it's indirectly contributing, it's ok. Sometimes you need to zig zag before you can get to your destination.
+
+A lack of being challenged results in being demotivated
+
+### Inspiration and Faith
+To accomplish any goal we have, we must be inspired to do the work, and have faith that our outcome can come true
+If we don't have inspiration, it may be that we instead have apathy. If we don't have faith, it may be that we instead have fear. These are the emotions that will be holding us back
+- These are the only 2 emotions that are going to hold us back from being able to accomplish our goals 

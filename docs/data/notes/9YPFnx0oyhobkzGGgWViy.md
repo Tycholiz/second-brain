@@ -1,0 +1,67 @@
+
+### Selling without being recognized
+- You have to sell it in a way that explains the facts (that everyone can agree on), then come to a conclusion that people will reach naturally. That way, it doesn't come off as a sales pitch
+- Ex. *Indeed has lots of jobs. But there is no organization. You're expected to find jobs fit for you with a simple search function. What you find are jobs that, while in the area you want, are not suited for your experience, nor your unique desires of the job*
+
+### Start off by making a connection. - The earlier this is done, the stronger communication will be.
+- Connection doesn't have to mean "things in common", like where we both went to schools or grew up. It could mean "I've seen your Facebook posts over the past years, and in a strange way it almost feels like we've still talked here and there".
+- This makes the other person feel more trust toward your intentions.
+
+After asking someone for their time, if they still resist, ensure them that you'll get to the point in 10 seconds. If they aren't interested in what you have to say by then, they can just turn around and be on their way.
+
+### Start with the problem
+Always start a pitch with presenting the problem that you are going to solve first. Present a picture, and allow the other side to picture it in their mind and relate. Once you do a good job of convincing the other side that this problem exists, they will be eager to hear how you solve it. This is the "why" of the product. Next, the "how". How do we solve this problem?
+
+### Selling Psychology
+- Don't jump to what you are selling. Instead, focus on the issue the prospect needs to solve
+- engage the customer in a discussion about their past experiences in similar projects
+- share stories about issues other clients faced that you helped to solve
+- "On a scale of 0-10, how satisfied are you with your current provider?"
+	- Drill home the idea that you can either get a better outcome, or a better price.
+- Make it clear that finding the right fit is more important that making the sale
+
+- a salesman who tries to maximize return on a particular deal is likely to be a "one and done" type of salesperson. Put another way, if you are trying to cultivate a relationship, you can't be of the mindset that you need to maximize return on any one deal. You have to treat it as a long term maximization of return.
+
+When selling, build the story about products features/benefits around a solution to a problem you know the customer has.
+- ex. Frank was just like you. He never thought about vacuuming, never wanted to vacuum, and never ever did it! So once he got his automatic vacuum, he loved the fact that all he had to do was just plug it in and leave it. Now Frank REALLY doesn't think about vacuuming!
+
+
+# Techniques
+### Phone
+set yourself a clearly defined call goal, and put each name and number on a sticky note and put them up on the window. as you finish each call, take off the sticky note and crumple it up. this will give a feeling of satisfaction and progress
+
+* * *
+
+### Raise expectations, lower expectations, overdeliver 
+- To get over a hump, you first need to oversell. You are trying to get an interview, you are trying to secure a contract etc. Now is the time to raise expectations to the roof. Once you've secured what you are after, now is the time to lower expectations. If you just got them to sign a contract to deliver 10,000 instagram followers, say to your client "ok there will be a quiet period at first, but we will gain more quickly over time, with 1000 in month one, and 10,000 by 6 months". Set a level for yourself that is lower than what you can actually deliver, and then overdeliver it. - ex. Imagine job hunting. You set high expectations in an effort to get the interview, but then you need to take your foot a bit off the gas. Manage expectations at this point, such as communicating that you've been burnt out recently, and that you've been trying to take a break from coding to focus on mental health. This will cause the person to adjust their anchor downwards in regards to your performance. Hopefully, when the interview comes, you can outperform the expectations that you set out. 
+
+### Fable: The Diver Test
+Unsure what to include in your resume? Use the simple ‘Diver Test’
+Use the ‘Diver Test’ to optimize your resume for any job
+
+One slow Wednesday afternoon I found myself in the office communal kitchen with a coworker whom I didn’t know very well. Eager to nudge the hour hand towards 5:00, we struck up a conversation. It turned out that Brent was the hiring manager for the department, and he was feeling accomplished because he had just brought on the newest addition to his team. Not only this, but he told me that he had never been so impressed with a candidate in his entire life!
+Naturally, I assumed that he must have had an impressive background. So I asked what company he worked for.
+“I don’t remember”, he casually replied.
+Baffled, I asked what product he sold at his previous job.
+“He didn’t” was his response.
+“What do you mean?”
+“He’s never sold a product in his life”
+So, I asked, “why did you hire him then?”
+“Because he was so brilliant at selling himself”
+I’m sure my curiosity could be read quite easily, and had to know: why was this man so impressive, and where did he learn to sell so well if he’s never even had a sales job?
+“He used to be a diver,” Brent interjected, responding to my obviously confused expression. “And that fact alone did not impress me. What did impress me so much was how he was able to tie diving and sales together.
+“I’d love to hear this” I replied, and let Brent explain the interview.
+“When he came in, we sat down and his body language immediately showed he was comfortable. This is the first thing I look for in all candidates. Nervousness is natural and ok, but there has to be some level of comfort that can be grown into. “
+Check #1.
+“After some back and forth, we went through his resume, including his most recent profession in diving, which he had done for the past 10 years. I asked him, ‘Why the switch from diving to sales? Why do you think you’ll make a strong salesman?’”.
+“His response blew me away, because he explained that being a diver taught him how to manage his time effectively. He went on to describe how as a diver, you have a limited amount of oxygen. This means you must always be aware of your progress in relation to how much time is left. If you are not on track to meet your goal, you must make adjustments on the fly. Failure to meet those goals is not an option, because it greatly reduces your efficiency and will end up costing the company money.”
+This response stunned me, because it completely opened my mind to how efficient humans can be, and how skills, competencies and knowledge gained are different for everyone, even given the same experiences as someone else.
+He continued on.
+“Next, he described how while underwater, it is vital to be able to work with co-workers to complete tasks within small windows of opportunity. He said, ‘I have learned how to truly depend on my co-workers. This has led to me becoming an incredibly team-focused individual.’”
+“After that point, he continued to express how through diving, he has learned to remain calm in the face of adversity, and how to face your fears to push your own man-made boundaries.”
+Suffice to say, the man was hired, and for good reason. 
+Experience is not everything. What is everything, is what is gained from those experiences. 
+A less observant diver perhaps would have seen himself as merely a specialist that has chosen an immutable career. He too would have learned teamwork and the ability to manage time, but it may have been limited to his job. He might not have believed in himself enough to apply those competencies to other areas of his life. Even if he did apply those things, his lack of awareness would have limited his ability to sell himself, and in effect limit the impact his abilities could have had on his life.
+The Diver Test is a simple way to apply many of the varied experiences that you have had throughout your life to a new scenario. Every single person has experiences, and with those experiences come lessons. The mistake would be to limit those lessons to the medium through which they were learned. Instead, expand what you know, by leveraging what you have already learned in your life. 
+So ask yourself next time you are adding something to your resume: does it pass The Diver Test?
+
