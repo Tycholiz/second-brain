@@ -1,0 +1,2 @@
+
+Imagine a world where Wikipedia had 2+ versions of the same page, tailoring its content to the particular audience that's reading in. Most of us would think of this as utterly crazy, because there is no "your fact", or "my fact", but only: the facts. Yet, this is more or less exactly what's happening with social media. Different people get fed different information based on algorithmic predictions that not only fortify silos, but actually influence us in further ways. It leaves humanity in a place where it is relatively easy to go about manipulation.

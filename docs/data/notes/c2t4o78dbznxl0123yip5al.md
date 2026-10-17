@@ -1,0 +1,3 @@
+
+Pay close attention to the requirement of the question. If there are multiple ways to satisfy a requirement but one is easier, go with the easier and simpler solution.
+- ex. if the question requires us to get a count of people who passed through security in a given day, our inclination might be to add each person to an array and count the array at the end. Though this might be better in the real world, simplify the problem by just getting the count when the condition is met.
