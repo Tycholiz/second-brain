@@ -1,0 +1,119 @@
+<h1 id="probability">Probability<a aria-hidden="true" class="anchor-heading icon-link" href="#probability"></a></h1>
+<p>Probability and relative frequency are two sides of the same coin.</p>
+<h3 id="denominator-neglect">Denominator neglect<a aria-hidden="true" class="anchor-heading icon-link" href="#denominator-neglect"></a></h3>
+<p>Low probability events are taken more seriously (ie. Given more weight) when described in terms of relative frequency (e.g. How many times out of 100 it will occur), than when described in abstract terms of probability</p>
+<ul>
+<li>ex. "There is a .001% chance you child will get cancer and die" vs. "1 / 100,000 children will get cancer and die".
+<ul>
+<li>The second example is more vivid, leading us to imagine it, and produce cognitive ease. This makes a better story, and makes its likelihood seem higher</li>
+</ul>
+</li>
+</ul>
+<h3 id="how-to-determine-probability">How to determine probability<a aria-hidden="true" class="anchor-heading icon-link" href="#how-to-determine-probability"></a></h3>
+<p>first access with a base rate is if I am asking what are the odds that Jim is a teacher that I have to find out how many teachers in the population are. For instance if .1% of the population are teachers, with such limited information I must conclude that there is a .1% chance that Jim is a teacher. this is the base rate probability and we should always start here first. from there we can adjust the probability up or down depending on what extra information we have.</p>
+<h3 id="bayes-theorem">Bayes' Theorem<a aria-hidden="true" class="anchor-heading icon-link" href="#bayes-theorem"></a></h3>
+<p>Bayes’ theorem is a probabilistic approach towards incorporating new information into the model as it becomes available, and updating the probability as a result.</p>
+<ul>
+<li>The act of adjusting our assessment of the probability is called <code>Bayesian inference</code></li>
+</ul>
+<p>Describe the probability of an event occurring based on prior knowledge that may relate to the event.</p>
+<ul>
+<li>ex. if the risk of developing health problems is known to increase with age, Bayes’s theorem allows us to assess the risk more accurately, by including the age in the model. Otherwise, we are just assuming that the individual is typical of the population as a whole.</li>
+</ul>
+<h3 id="zipfs-law">Zipf's law<a aria-hidden="true" class="anchor-heading icon-link" href="#zipfs-law"></a></h3>
+<p>Zipf's law states: "given a large sample of words used, the frequency of any word is inversely proportional to its rank in the frequency table." </p>
+<ul>
+<li>So <em>n</em>th word has a frequency proportional to 1/n.</li>
+<li>this means that the second most common word (<em>of</em>) will appear 1/2 as often as the most common (<em>the</em>), and the third most common (<em>and</em>) word will appear 1/3 as often as the most common (<em>the</em>)</li>
+<li>this also means that only about 135 words are needed to account for half the sample of words in a large sample. This holds true for most languages, though the reason is not well understood.</li>
+</ul>
+<p>Zipf's law applies to:</p>
+<ul>
+<li>the population ranks of cities in various countries, </li>
+<li>corporation sizes, </li>
+<li>income rankings, </li>
+<li>etc. </li>
+</ul>
+<h1 id="echo-chamber-danger">Echo Chamber Danger<a aria-hidden="true" class="anchor-heading icon-link" href="#echo-chamber-danger"></a></h1>
+<ul>
+<li>If all people in one group are coming to similar conclusions, it could be a sign of an echo chamber. Conversely if very different people are saying the same thing, they're probably right.
+<ul>
+<li>The likelihood of people using different data (ie. a different source of information) and different perspectives and still arriving at the same conclusion is low.</li>
+</ul>
+</li>
+</ul>
+<p>improbable things happen all the time because "improbability" is an illusion based on our preconceptions. Often it has nothing to do with statistical truth. The trouble is that we can't grasp the difference between (a) "This particular improbable pattern of lottery numbers came up on this particular day in this particular lottery" and (b) "Some improbable pattern of lottery numbers came up sometime in the last five years somewhere in the world." In short: "improbability" does not imply "impossibility".</p>
+<h3 id="the-same-birthday">The Same Birthday<a aria-hidden="true" class="anchor-heading icon-link" href="#the-same-birthday"></a></h3>
+<p>Consider a party attended by thirty people: what are the chances that two of them have the same birthday? One in twelve, or, roughly 8% (30/365)? After all, it's a 1 in 365 chance someone will share your birthday, and by the lottery analogy above, there's 30 shots at winning.</p>
+<p>No, the odds are significantly better than that. In fact, there is a 70% probability.</p>
+<p>This is known as the "birthday problem". The apparently miraculous breaking of odds is attributed to the fact that the question is "what is the chance that any two people have the same birthday?", whereas most people following common sense tend to translate the question as "what is the chance that someone has the same birthday as mine?". So while you get 30 shots at this 1 in 365 lottery, so does everyone else. More specifically, every possible pairings of two individuals in the group of 30 has a shot at this 1 in 365 chance. Regardless, the answer is very non-intuitive and is a good display of how people don't do well at guessing probabilities. Once the problem is known, however, calculating the real odds is just a simple case of exploiting the correct mathematics.</p>
+<h1 id="probability-of-at-least-one-being-selected">Probability of at least one being selected<a aria-hidden="true" class="anchor-heading icon-link" href="#probability-of-at-least-one-being-selected"></a></h1>
+<p>Say we have 6 face-down cards, and 2 are known to be aces. What many people will assume from intuition is the chance of choosing at least one ace when flipping two cards over is 2 in 6 (~33%). This is only true of drawing an ace on the first attempt, however. The actual chance of picking up at least one ace is much better than that.</p>
+<hr>
+<h3 id="range-of-probabilities">Range of probabilities<a aria-hidden="true" class="anchor-heading icon-link" href="#range-of-probabilities"></a></h3>
+<p>Consider all possible parallel paths of outside effects : janitor who won the lottery would have had 999,999 lives with unsuccessful lottery tickets, and one possible life winning. Whereas a dentist who followed the dental-school and self-practice path has a smaller range of possibilities : ranging only from a dentist practice for poor people versus a dentist practice for rich people.</p>
+<h3 id="reference-point-argument">Reference Point Argument<a aria-hidden="true" class="anchor-heading icon-link" href="#reference-point-argument"></a></h3>
+<p>def - do not compute odds from the vantage point of the winning gambler, but from the bird's eye view of all those who started in the cohort.</p>
+<h1 id="normal-distribution">Normal Distribution<a aria-hidden="true" class="anchor-heading icon-link" href="#normal-distribution"></a></h1>
+<h3 id="smalllarge-hospital-example">Small/Large hospital example<a aria-hidden="true" class="anchor-heading icon-link" href="#smalllarge-hospital-example"></a></h3>
+<p>in a town, there are 2 hospitals: 1 large and 1 small. one day, 60% of the births of one hospital were male. which hospital was it?</p>
+<ul>
+<li>intuition tells us that it was the large hospital, but statistics shows us that with larger sample sizes, we get closer to a mean (50%). therefore, it must be the smaller hospital</li>
+</ul>
+<hr>
+<h3 id="prior-probability">Prior Probability<a aria-hidden="true" class="anchor-heading icon-link" href="#prior-probability"></a></h3>
+<p>ex. 1% of women have breast cancer. 80% of those women received a positive mammogram. Also, 9.6% of women without breast cancer tested positive. What is the probability that any random person that tests positive will actually have breast cancer?</p>
+<ul>
+<li>most doctors when asked this question will vastly overestimate the probability, placing it at ~80%.
+<ul>
+<li>The most common mistake is to ignore the original fraction of women with breast cancer (only 1%), and the fraction of women without breast cancer who receive false positives (9.6%), and focus only on the fraction of women with breast cancer who get positive results (80% of the 1%)
+<ul>
+<li>It seems intuitive that if 80% of people with breast cancer tested positive, then the probability of a woman with a positive test actually having breast cancer is 80%.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>“The probability that a woman with a positive mammogram has breast cancer” is not at all the same thing as “the probability that a woman with breast cancer has a positive mammogram”</li>
+</ul>
+<p>The Priors</p>
+<ul>
+<li><strong>Prior probability</strong> - The original proportion of patients with breast cancer (1%)</li>
+<li><strong>Conditional probabilities</strong> - probability that a patient with breast cancer gets a positive mammogram (80% of the 1%), and the chance that a patient without breast cancer gets a positive mammogram (9.6%)</li>
+<li>see <strong>Round-trip Fallacy</strong></li>
+</ul>
+<hr>
+<h3 id="chaotic-system">Chaotic system<a aria-hidden="true" class="anchor-heading icon-link" href="#chaotic-system"></a></h3>
+<ul>
+<li>Imagine we had a pseudo-random coin flipper that worked by simply reading the digits of pi. If the number was even, then it is tails. If it was odd, then it is heads. To those who don't know how the heads/tails are derived, it seems random. However in reality it is not really random at all. This is the distinction between a random system and a chaotic system.
+<ul>
+<li>the fundamental truth of a chaotic system is that if we know the inputs, we can determine the outputs. Put another way, it is completely deterministic</li>
+<li>ex. physically flipping a coin is not random, but chaotic, because if we knew the initial linear and angular momentum of the coin, and amount of wind resistance, we could predict every time what the result would be.</li>
+</ul>
+</li>
+<li>when you get a bunch of chaotic motions all working together, they end up producing a predictable result
+<ul>
+<li>What this implies is that the more chaotic a system is, the more predictable it is.</li>
+<li>ex. consider a distribution curve metal ball tool. When we turn it upside-down and let all the balls drop, it results in an almost perfect distribution curve. The balls do not "know" where to go, but they end up that way.</li>
+</ul>
+</li>
+</ul>
+<h1 id="quotes">Quotes<a aria-hidden="true" class="anchor-heading icon-link" href="#quotes"></a></h1>
+<ul>
+<li>"any event can have an infinite amount of possible causes" - Pierre Daniel Huet</li>
+</ul>
+<h1 id="related">Related<a aria-hidden="true" class="anchor-heading icon-link" href="#related"></a></h1>
+<ul>
+<li><a href="/notes/ya4y0i19299eocuuvg55dxh">Combinatorics</a></li>
+</ul>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/notes/K2nOUqlCiq71QFpnZiUqP">Black Swan</a></li>
+<li><a href="/notes/lgykzvi0b7j3wk4rqzam01r">Intersection</a></li>
+<li><a href="/notes/3g8a5xptyvopoqck04cfknc">Union</a></li>
+</ol>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/notes/ya4y0i19299eocuuvg55dxh">Combinatorics</a></li>
+</ul>
