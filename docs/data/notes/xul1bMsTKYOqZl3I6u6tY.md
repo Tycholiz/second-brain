@@ -1,0 +1,6 @@
+
+domain refers to the context under which something occurs/is evaluated
+- ex. we can learn about how "most criminals are from the bad side of town" and "most people from the bad side of town are criminals" have vastly different meanings, but we may still be stricken with fear when getting into an elevator with someone from the wrong side of town.
+	- This shows that our own ability to logically reason is suppressed in favor of a more primitive way of thinking— a way of thinking that is more tied to survival in a world that existed aeons ago.
+- Domain Specificity refers to the way the matter is presented, and how we may apply knowledge to some domains (and will be recognizable to us), but we will not be able to assimilate lessons into other domains
+	- ex. it would be domain specific to ride escalators all day, then go on a stairmaster at the gym

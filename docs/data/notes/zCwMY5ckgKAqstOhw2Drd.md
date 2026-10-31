@@ -1,0 +1,3 @@
+
+Being an expert in a particular field only works when you are able to "tunnel". that is, you are able to look at the thing you are studying, and only that thing. That's why mathematicians studying mathematical problems can be experts, since there are no external threats to their model. but once you put these models in the real world, they are subject to impact from many more external variables, thus making efficacy of an expert lesser
+- note: it may be the case that a less extreme version of this claim is true. A stock trader with 10 years experience is surely more of an expert than a freshman.
