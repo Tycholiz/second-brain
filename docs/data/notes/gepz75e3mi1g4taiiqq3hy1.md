@@ -1,0 +1,2 @@
+
+The process of photosynthesis involves the splitting of a water molecule (H2O), releasing oxygen (O2) into the atmosphere, and reducing carbon dioxide (CO2) to release the hydrogen atoms that fuel the metabolic process of primary production.

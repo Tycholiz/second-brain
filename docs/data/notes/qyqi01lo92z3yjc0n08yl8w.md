@@ -1,0 +1,22 @@
+
+When dividends are taxed
+	•	Corporate side:
+• Corp earns profit.
+• Pays corporate tax at the applicable rate.
+• What’s left (after-tax profit) is available for dividends.
+	•	Personal side:
+• When the corp actually pays you a dividend, you report it on your personal return.
+• Canada applies a gross-up (to simulate the pre-tax corporate income) and then a dividend tax credit (to recognize the corp already paid tax).
+• You pay personal tax on the net result, based on your bracket.
+
+So: corp pays its tax first; then you personally pay tax when dividends are declared/distributed.
+
+### Paying yourself in dividends
+• Dividends are not added “as is” — they’re grossed up first:
+    • Non-eligible dividends (from small business income): grossed up by 15%.
+    • Eligible dividends (from high-rate taxed income): grossed up by 38%.
+        •	After gross-up, you apply your marginal tax rate.
+        •	Then you get a dividend tax credit (DTC) that reduces your tax, reflecting that the corp already paid corporate tax.
+        •	Result: the net tax on dividends can be lower or higher than salary depending on your income level and whether dividends are eligible or not.
+
+•	Dividends do not create RRSP room and don’t trigger CPP.
