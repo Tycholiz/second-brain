@@ -1,0 +1,4 @@
+
+A global mean temperature change of 4°C is close to the difference between the temperatures of the present day and those of the last ice age, when much of central Europe and the northern United States were covered with kilometers of ice
+
+The reason why winter is cold and summer hot is due to the angle of light rays from the sun penetrating the atmosphere. In winter, the rays enter the atmosphere at an oblique angle, resulting in less light entering per unit of area. Conversely, in summer the rays hit the atmosphere more directly. 

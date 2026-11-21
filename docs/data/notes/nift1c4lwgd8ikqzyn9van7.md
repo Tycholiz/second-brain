@@ -1,0 +1,6 @@
+
+With a non-modular synth, the entire pipline from oscillator to output is hard-wired. 
+- that is, the signal follows a pre-defined path from the oscillator (e.g. oscillator -> filter -> amplifier -> effects)
+- while you can control the knobs along the signal path, we are limited by the designers concept of the instrument.
+
+Each module is responsible for doing a specific job and is connected to other modules using patch cables

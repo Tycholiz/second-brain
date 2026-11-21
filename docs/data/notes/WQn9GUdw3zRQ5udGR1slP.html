@@ -1,0 +1,54 @@
+<h1 id="reaper">Reaper<a aria-hidden="true" class="anchor-heading icon-link" href="#reaper"></a></h1>
+<h1 id="config">Config<a aria-hidden="true" class="anchor-heading icon-link" href="#config"></a></h1>
+<p>We use ReaPack for extension management</p>
+<ol>
+<li>find the package in browse list, or import the xml</li>
+<li>highlight the package</li>
+<li>click ...Actions > Install</li>
+</ol>
+<p>We use SWS for added functionality for REAPER</p>
+<p>All config files stored in <code>~/Library/Application Support/REAPER</code></p>
+<h1 id="actions">Actions<a aria-hidden="true" class="anchor-heading icon-link" href="#actions"></a></h1>
+<ul>
+<li>Custom actions are similar to macros, in that we can take building block actions (like select, copy and paste) and run them in a sequence.</li>
+<li>The common definition of an action in Reaper is any input you make, for example, if I click on a MIDI item to select it, that is an action; if I select the next track, that is an action.</li>
+</ul>
+<h1 id="tips">Tips<a aria-hidden="true" class="anchor-heading icon-link" href="#tips"></a></h1>
+<ul>
+<li>Cmd + B pulls up the project bay, where you can see the file path for all audio files in the project, and copy/move them to the project folder if they're all over the place.</li>
+</ul>
+<h3 id="record-monitoring">Record Monitoring<a aria-hidden="true" class="anchor-heading icon-link" href="#record-monitoring"></a></h3>
+<ul>
+<li>Monitoring refers to whether or not REAPER plays back the incoming signal when a track is record armed</li>
+</ul>
+<hr>
+<h3 id="bus">Bus<a aria-hidden="true" class="anchor-heading icon-link" href="#bus"></a></h3>
+<p>Buses are great because they allow you to apply processing to multiple signals at once. </p>
+<ul>
+<li>ex. maybe you want to apply some subtle saturation to your master bus to sweeten up your entire mix without applying a saturator to each track</li>
+</ul>
+<p>You can create custom buses that contain similar instruments. Perhaps you want to create a vocal bus that contains all of the vocal melodies, harmonies, and ad libs in your song. Grouping or "busing" together sounds in this way reduces redundant processing.</p>
+<p>Instead of applying a low-cut filter to every vocal track to remove low-end rumble, applying a single low-cut filter to your vocal bus will have the same affect and reduce the load on your computer's CPU.</p>
+<ul>
+<li>Try experimenting with bus compression, reverb, and delay.</li>
+</ul>
+<h3 id="send-maybe-an-aux">Send (maybe an Aux?)<a aria-hidden="true" class="anchor-heading icon-link" href="#send-maybe-an-aux"></a></h3>
+<p>A send is similar to a bus in the sense that it is for more efficient processing of an FX onto a certain type of sound</p>
+<ul>
+<li>ex. if we want an artistic reverb FX to be applied to both rhythm acoustic guitars, we could create a <code>Send: rhythm acoustic verb</code> and route the <code>Bus: acoustic rhythm</code> through it. Because the <code>Bus: acoustic rhythm</code> is also routed to the <code>Bus: Guitars</code>, we can mix the FX 100% on the send. As a result, we have a dedicated <code>Send</code> whose volume fader controls how much of the FX will be mixed in with the dry guitar signal itself.
+<ul>
+<li>this is what's referred to as parallel processing</li>
+</ul>
+</li>
+</ul>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/notes/ml7589krchb50xyh7dqc5xm">Automation</a></li>
+<li><a href="/notes/o3lMepRoBzGuhT1Xf9UWi">Buffer</a></li>
+<li><a href="/notes/exk6ims9ps4c3pmopl5tux3">Channels</a></li>
+<li><a href="/notes/wWsvvbkCrIlaTUNAZGN6h">Cmds</a></li>
+<li><a href="/notes/noH1GXwFDSoD6OQEEtqJ5">Cook</a></li>
+<li><a href="/notes/wqzvz8qlsltkbyxl90o1fdp">Fades</a></li>
+<li><a href="/notes/TypiasAzRHyxbbbG1HbGC">MIDI</a></li>
+</ol>
