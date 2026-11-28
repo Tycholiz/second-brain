@@ -1,0 +1,17 @@
+
+secrets become exponentially harder to keep for every extra person who knows about them
+
+### Limited Hangout
+A *limited hangout* is spy jargon for a favorite and frequently used gimmick of the clandestine professionals. When their veil of secrecy is shredded and they can no longer rely on a phony cover story to misinform the public, they resort to admitting—sometimes even volunteering—some of the truth while still managing to withhold the key and damaging facts in the case. The public, however, is usually so intrigued by the new information that it never thinks to pursue the matter further.
+
+* * *
+
+Your role when engaging with a conspiracy-minded thinker, if you choose to have one, is not:
+	•	educator
+	•	debunker
+	•	savior
+
+It’s closer to:
+	•	boundary-holder
+	•	reality anchor
+	•	witness
